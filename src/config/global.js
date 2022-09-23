@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Pronóstico de necesidades',
+    componenteFormativo: 'Programación de operación',
     descripcionCurso:
-      'Determinar los actores de la cadena logística e identificar necesidades del cliente, de acuerdo con mercancías y actividades económicas.',
+      'A través de este contenido, el aprendiz podrá identificar y conocer los procedimientos, normas, modelos, rutas y demás conceptos que intervienen en la programación de operación en el transporte de carga.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -64,7 +64,20 @@ export default {
         numero: '5',
         titulo: 'Selección de servicios de transporte',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.1',
+            titulo: 'Ciclo de pedido',
+            hash: 't_5_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.2',
+            titulo: 'Administración de cadena de suministro SCM',
+            hash: 't_5_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema6',
@@ -84,7 +97,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '7.1',
-            titulo: 'Cross docking',
+            titulo: '<em>Cross docking</em>',
             hash: 't_7_1',
           },
           {
@@ -200,22 +213,22 @@ export default {
     {
       termino: 'Delegación comercial',
       significado:
-        'Consiste en una oficina de ventas que actúa como extensión de la empresa en un mercado exterior, pero sin personalidad jurídica ni capacidad para realizar operaciones en nombre propio. Las instalaciones son muy reducidas –en ocasiones se dispone de una sala de exposiciones (showroom) o de almacén- y el personal se limita a muy pocas personas.',
+        'Consiste en una oficina de ventas que actúa como extensión de la empresa en un mercado exterior, pero sin personalidad jurídica ni capacidad para realizar operaciones en nombre propio. Las instalaciones son muy reducidas –en ocasiones se dispone de una sala de exposiciones (<em>showroom</em>) o de almacén- y el personal se limita a muy pocas personas.',
     },
     {
       termino: '<em>E-commerce</em>',
       significado:
-        'El e-commerce consiste en el marketing y venta de productos o servicios a través de Internet.',
+        'El <em>e-commerce</em> consiste en el <em>marketing</em> y venta de productos o servicios a través de <em>Internet</em>.',
     },
     {
       termino: 'KPI',
       significado:
-        'Acrónimo de Key Performance Indicator, son indicadores que miden el desempeño de un determinado proceso en comparación con datos históricos de la misma compañía o cualquier otra métrica de referencia, como la información de la competencia.',
+        'Acrónimo de <em>Key Performance Indicator</em>, son indicadores que miden el desempeño de un determinado proceso en comparación con datos históricos de la misma compañía o cualquier otra métrica de referencia, como la información de la competencia.',
     },
     {
       termino: '<em>Picking</em>',
       significado:
-        'El picking es la actividad de preparación de pedidos que consiste en la recogida y combinación de cargas no unitarias para conformar el pedido de un cliente.',
+        'El <em>picking</em> es la actividad de preparación de pedidos que consiste en la recogida y combinación de cargas no unitarias para conformar el pedido de un cliente.',
     },
     {
       termino: 'TIC',
@@ -227,7 +240,7 @@ export default {
     {
       tema: 'Canales de distribución',
       referencia:
-        'Marketing Trainee. (2020) ¿Qué son los canales de distribución? / Ejemplos Importancia / Tipos [Video].',
+        '<em>Marketing Trainee</em>. (2020) ¿Qué son los canales de distribución? / Ejemplos Importancia / Tipos [Video].',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=qjTVRRMw7bw&list=RDCMUCBR3YBLDZyfBTJ0OL_nCOWg&start_radio=1',
@@ -235,7 +248,7 @@ export default {
     {
       tema: 'Método “Problema del Viajero”',
       referencia:
-        'Señal Santa Fe. (2011) Travelling Salesman Problem (TSP) [Video].',
+        'Señal Santa Fe. (2011) <em>Travelling Salesman Problem</em> (TSP) [Video].',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=oSPkod-M6Gc',
     },
@@ -274,28 +287,25 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
-        cargo: '',
+        nombre: 'Dairo Giovanni Rodríguez Agatón',
+        cargo: 'Experto Temático',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Regional Distrito Capital - Centro de Tecnologías del Transporte',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        nombre: 'Zvi Daniel Grosman',
+        cargo: 'Diseñador Instruccional',
+        centro: 'Regional Distrito Capital – Centro de Gestión Industrial',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Asesora Metodológica',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología ',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        nombre: 'Darío González',
+        cargo: 'Corrección de estilo',
+        centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
       },
     ],
     desarrolloProducto: [
@@ -311,7 +321,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: '',
+        nombre: 'Juan Carlos Tapias Rueda',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -323,43 +333,60 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Adriana Marcela Suárez Eljure',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Ángela María Maldonado Jaime',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Andrés Felipe Herrera Roldan',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'José Jaime Luis Tang Pinzón',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Lina Marcela Perez Manchego',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Nelson Iván Vera Briceño',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Melina Tatiana Quintero Rodriguez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

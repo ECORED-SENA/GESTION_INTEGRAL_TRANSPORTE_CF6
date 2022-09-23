@@ -25,19 +25,19 @@
         p(data-aos="fade-up") Los factores que intervienen en la selección del modo de transporte son normalmente los siguientes:
         ul.lista.mt-4
           li(data-aos="fade-up") 
-            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Factibilidad logística
+            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Factibilidad logística.
           li(data-aos="fade-up") 
-            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Factor de estiba de la carga
+            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Factor de estiba de la carga.
           li(data-aos="fade-up") 
-            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Valor de la mercadería
+            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Valor de la mercadería.
           li(data-aos="fade-up") 
-            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Cantidad del envío
+            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Cantidad del envío.
           li(data-aos="fade-up") 
-            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Perecibilidad de la carga
+            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Perecibilidad de la carga.
           li(data-aos="fade-up") 
-            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Urgencia del cliente
+            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Urgencia del cliente.
           li(data-aos="fade-up") 
-            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Riesgos que pretendan asumirse
+            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Riesgos que pretendan asumirse.
           li(data-aos="fade-up") 
             p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Costos de terminales portuarias, depósitos fiscales y terminales aeroportuarias.
 
@@ -65,7 +65,7 @@
           p.mt-4 Se recibe la información acerca de un producto que se necesita. En la misma se encuentra la cantidad, tiempo y aplicación.
       .row.mt-4(titulo="Comprobación del pedido")
         .col-md-6.mb-4.mb-md-0(style="place-self:center")
-          h4 Comprobación del pedido
+          h4 Comprobación del pedido:
           p.mt-4 Se verifica toda la información entre el cliente y el productor, incluyendo la forma de pago.
         .col-md-6(style="place-self:center")
           figure
@@ -124,7 +124,7 @@
           img(src="@/assets/curso/tema5/12.svg" data-aos="fade-left")
       .col-lg-7(style="position:relative;place-self:center;")
         .p-4(style="background-color:#F6F6F6;box-shadow:rgb(0 0 0 / 20%) -3px 6px 16px -7px;" data-aos="fade-right")
-          p.mb-0(data-aos="fade-up") El modelo de Administración de cadena de suministro SCM (Supply Chain Management) sirve para ofrecer seguimiento al proceso completo de producción, integrando y coordinando las maneras en que una organización descubre las materias primas y los elementos necesarios para llevar a cabo un producto o servicio, y después lo entrega a los consumidores.
+          p.mb-0(data-aos="fade-up") El modelo de Administración de cadena de suministro SCM (#[em Supply Chain Management]) sirve para ofrecer seguimiento al proceso completo de producción, integrando y coordinando las maneras en que una organización descubre las materias primas y los elementos necesarios para llevar a cabo un producto o servicio, y después lo entrega a los consumidores.
 
     br
     .row.mt-5

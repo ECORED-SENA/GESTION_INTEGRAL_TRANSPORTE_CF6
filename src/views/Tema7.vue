@@ -57,7 +57,7 @@
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-5.p-xl-5
-              p #[strong Relación costes-beneficios:] La reducción de costes no debe ni puede afectar la calidad en su totalidad.
+              p #[strong Relación costes-beneficios:] la reducción de costes no debe ni puede afectar la calidad en su totalidad.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema7/5.png')})`}")
               h4.p-3.text-center(style="background-color:#FAE7CF;position:absolute;width:100%;bottom:20px;border-radius:0px 0px 15px 15px;box-shadow:0px 0px 10px rgba(0,0,0,.1);") Relación costes-beneficios
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
@@ -65,7 +65,7 @@
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-5.p-xl-5
-              p #[strong Tiempos:] La reducción del tiempo en la gestión, la carga y la distribución de mercancías es un aspecto importante en cuanto a calidad del servicio se refiere; por lo tanto, este ítem debe contar con los indicadores oportunos en el conjunto de los KPI de calidad que se implementen.
+              p #[strong Tiempos:] la reducción del tiempo en la gestión, la carga y la distribución de mercancías es un aspecto importante en cuanto a calidad del servicio se refiere; por lo tanto, este ítem debe contar con los indicadores oportunos en el conjunto de los KPI de calidad que se implementen.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema7/6.png')})`}")
               h4.p-3.text-center(style="background-color:#FAE7CF;position:absolute;width:100%;bottom:20px;border-radius:0px 0px 15px 15px;box-shadow:0px 0px 10px rgba(0,0,0,.1);") Tiempos
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
@@ -73,7 +73,7 @@
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-5.p-xl-5
-              p #[strong Nivel de satisfacción del cliente:] Es importante tener una serie de indicadores tanto cuantitativos como cualitativos que permitan medir el servicio prestado. 
+              p #[strong Nivel de satisfacción del cliente:] es importante tener una serie de indicadores tanto cuantitativos como cualitativos que permitan medir el servicio prestado. 
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema7/7.png')})`}")
               h4.p-3.text-center(style="background-color:#FAE7CF;position:absolute;width:100%;bottom:20px;border-radius:0px 0px 15px 15px;box-shadow:0px 0px 10px rgba(0,0,0,.1);") Nivel de satisfacción del cliente
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
@@ -81,14 +81,14 @@
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-5.p-xl-5
-              p #[strong Operaciones de logística inversa:] Este tipo de operaciones debe contar con indicadores específicos que evalúen aspectos como los tiempos de recogida y devolución de los artículos o mercancías al punto de origen, costes repercutidos al cliente, márgenes de beneficios-pérdidas, impacto medioambiental de estas operaciones.
+              p #[strong Operaciones de logística inversa:] este tipo de operaciones debe contar con indicadores específicos que evalúen aspectos como los tiempos de recogida y devolución de los artículos o mercancías al punto de origen, costes repercutidos al cliente, márgenes de beneficios-pérdidas, impacto medioambiental de estas operaciones.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema7/8.png')})`}")
               h4.p-3.text-center(style="background-color:#FAE7CF;position:absolute;width:100%;bottom:20px;border-radius:0px 0px 15px 15px;box-shadow:0px 0px 10px rgba(0,0,0,.1);") Operaciones de logística inversa
 
     Separador.mt-5
 
     .titulo-segundo
-      h2#t_7_1 7.1   Cross docking
+      h2#t_7_1 7.1   #[em Cross docking]
 
     p(data-aos="fade-up") Es un proceso logístico que promueve un ahorro de costos, el aumento de la calidad del producto y la disminución de los tiempos de entrega; ayuda a mejorar los procesos de logística y a la satisfacción de los clientes.
 
@@ -150,7 +150,7 @@
         img(src='@/assets/curso/tema7/13.png')
         .tarjeta.color-primario(style="background-color:#FAE7CF;")
           .p-4
-            p.text-center.mt-4(style="color:#12263F;") #[strong(style="color:#12263F;") Logística de devoluciones:] se responsabiliza de los retornos desde el punto de distribución o desde el cliente hasta el centro del que partió el producto, es una de las gestiones más importantes y más ahora que las ventas por Internet han aumentado.
+            p.text-center.mt-4(style="color:#12263F;") #[strong(style="color:#12263F;") Rapidez en la entrega:] Se debe elegir el medio de transporte y la empresa proveedora que cumpla con la entrega de la mercancía en el plazo pactado.
       .tarjeta-avatar
         img(src='@/assets/curso/tema7/14.png')
         .tarjeta.color-primario(style="background-color:#FAE7CF;")
@@ -176,6 +176,12 @@
         .tarjeta.color-primario(style="background-color:#FAE7CF;")
           .p-4
             p.text-center.mt-4(style="color:#12263F;") #[strong(style="color:#12263F;") Modo:] el tipo de transporte debe satisfacer los requerimientos de la carga, puede ser un vehículo de carretera, ferroviario, marítimo o aéreo.
+
+    h3.mt-5(data-aos="fade-up") Tipos de logística inversa
+
+    p.mt-4(data-aos="fade-up") Básicamente, existen dos tipos de logística Inversa:
+    p.mt-4(data-aos="fade-up") Logística de devoluciones: se responsabiliza de los retornos desde el punto de distribución o desde el cliente hasta el centro del que partió el producto, es una de las gestiones más importantes y más ahora que las ventas por Internet han aumentado.
+    p.mt-4(data-aos="fade-up") Logística de residuos: Se refiere a la recuperación de los residuos para su posterior aprovechamiento y así contribuir a la conservación del medio ambiente. 
 
     h4.mt-5(data-aos="fade-up") Selección de vehículos de acuerdo con operación de transporte
 

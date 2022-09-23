@@ -36,6 +36,8 @@
         p.mt-3(data-aos="fade-up") Dentro de la operación de transporte, es importante buscar un camino entre todas las opciones posibles en una red de distribución, permitiendo programar rutas efectivas a cualquier destino.
         p.mt-4(data-aos="fade-up") Se ha demostrado que desarrollando una adecuada programación de rutas efectivas de transporte de carga las empresas pueden reducir los gastos de transporte hasta en un 30 %, y sin este trabajo de programación, las empresas pueden llegar a gastar hasta 30 % de su presupuesto anual en el desarrollo e implementación de la logística de rutas de entrega de productos, asimismo, demorando más los tiempos de operación e incurriendo en desperdicios en rubros como el gasto en combustible y el pago de horas-hombre. 
 
+    p.mt-4(data-aos="fade-up") Otro problema que surge, al no tener un diseño o programación de rutas de entrega, es la pérdida o deterioro de mercancías. Actualmente, las empresas de envíos pagan entre un 15 % y un 50 % del total del precio de venta de un producto, todo por errores en el almacenaje y de despacho de sus pedidos.
+
     figure.mt-5
       img(src="@/assets/curso/tema4/4.png" data-aos="zoom-in-up")
 

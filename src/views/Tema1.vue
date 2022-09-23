@@ -24,7 +24,7 @@
             li 
               p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] #[strong El consumidor:] la persona que compra el producto.
             li 
-              p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] #[strong El mayorista:] Las empresas que adquieren artículos para vender, a su vez, a otras empresas. No al consumidor final.
+              p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] #[strong El mayorista:] las empresas que adquieren artículos para vender, a su vez, a otras empresas. No al consumidor final.
             li 
               p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] #[strong El minorista:] el comercio que vende al cliente final.
         .col-md-8
@@ -58,8 +58,8 @@
       .row
         .col-md-4.mb-4.mb-md-0
           h4 Canales
-          p.mt-4 #[strong Canal propio o directo:] La empresa entrega el producto al cliente, sin intermediarios. De esta manera, no necesita de un tercero para el almacenaje, transporte o atención al consumidor.
-          p.mt-4 #[strong Canal externo o indirecto:] En este caso, se necesita una empresa externa para la distribución. Existen dos tipos de distribución externa:
+          p.mt-4 #[strong Canal propio o directo:] la empresa entrega el producto al cliente, sin intermediarios. De esta manera, no necesita de un tercero para el almacenaje, transporte o atención al consumidor.
+          p.mt-4 #[strong Canal externo o indirecto:] en este caso, se necesita una empresa externa para la distribución. Existen dos tipos de distribución externa:
           ul.lista.mt-4
             li 
               p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] #[strong Corto:] va desde el fabricante al detallista o minorista, y de este, al cliente final. 

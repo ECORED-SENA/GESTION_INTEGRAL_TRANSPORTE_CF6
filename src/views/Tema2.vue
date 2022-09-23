@@ -101,9 +101,9 @@
 
     div.mt-5(style="border-top:3px #707070 solid;")
 
-    h4.mt-5(data-aos="fade-up") Distribución cross-docking
+    h4.mt-5(data-aos="fade-up") Distribución #[em cross-docking]
 
-    p.mt-4(data-aos="fade-up") En este método, se reemplazan delegaciones por plataformas cross-docking (carga/descarga), sitios de recepción y reexpedición de mercancías del fabricante al distribuidor. Evitan el requisito de almacenaje y aceleran el flujo al punto de venta.
+    p.mt-4(data-aos="fade-up") En este método, se reemplazan delegaciones por plataformas #[em cross-docking] (carga/descarga), sitios de recepción y reexpedición de mercancías del fabricante al distribuidor. Evitan el requisito de almacenaje y aceleran el flujo al punto de venta.
 
     .row.mt-5
       .col-lg-6
@@ -135,7 +135,7 @@
               h4(data-aos="fade-up") Desventajas
               ul.lista.mt-4
                 li(data-aos="fade-up") 
-                  p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Se necesita inversión para reestructurar todo para cross-docking.
+                  p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Se necesita inversión para reestructurar todo para #[em cross-docking].
                 li(data-aos="fade-up") 
                   p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Requiere integrar efectivamente toda la cadena.
                 li(data-aos="fade-up") 

@@ -1,1 +1,1 @@
-module.exports = 'Pronóstico de necesidades'
+module.exports = 'Programación de operación'

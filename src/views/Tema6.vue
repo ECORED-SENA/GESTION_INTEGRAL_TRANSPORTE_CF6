@@ -133,8 +133,8 @@
           img(src="@/assets/curso/tema6/5.svg" data-aos="fade-right")
       .col-md-6(style="place-self:center")
         p(data-aos="fade-up") La gestión de la logística es el flujo de materias primas, productos, servicios e información a lo largo de toda la cadena de suministro de un producto o servicio. Se puede comprender la logística como la gestión de todas las operaciones que buscan garantizar la disponibilidad de un determinado elemento (producto, servicio, información) en tiempo y forma óptimos.
-        p.mt-4(data-aos="fade-up") La gestión de la logística incluye todo lo relacionado con el transporte de mercancías, el almacenamiento, el picking o preparación de pedidos y el transporte hasta los intermediarios que llevarán a cabo la venta o hasta los domicilios particulares, en el caso de un e-commerce.
-        p.mt-4(data-aos="fade-up") Los principales objetivos que persigue una gestión logística eficiente son la disminución de costes, el aumento de competitividad y la calidad en todos los procesos: desde el almacenamiento, hasta el transporte y distribución, pasando por el picking.
+        p.mt-4(data-aos="fade-up") La gestión de la logística incluye todo lo relacionado con el transporte de mercancías, el almacenamiento, el #[em picking] o preparación de pedidos y el transporte hasta los intermediarios que llevarán a cabo la venta o hasta los domicilios particulares, en el caso de un #[em e-commerce].
+        p.mt-4(data-aos="fade-up") Los principales objetivos que persigue una gestión logística eficiente son la disminución de costes, el aumento de competitividad y la calidad en todos los procesos: desde el almacenamiento, hasta el transporte y distribución, pasando por el #[em picking].
 
     br
     .row.mt-5
@@ -143,9 +143,9 @@
         p.mt-4(data-aos="fade-up") La logística se puede entender como el nexo entre la producción y el mercado. En todo este proceso de la cadena de suministro, las técnicas de organización y gestión logística se aplican en todas estas etapas:
         ul.lista.mt-4
           li.mb-3(data-aos="fade-up")
-            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] #[strong Inventario:] en el inventario del almacén, se gestionan todas las entradas y salidas de mercancías, para tener siempre una noción precisa del stock del que se dispone.
+            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] #[strong Inventario:] en el inventario del almacén, se gestionan todas las entradas y salidas de mercancías, para tener siempre una noción precisa del #[em stock] del que se dispone.
           li(data-aos="fade-up")
-            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] #[strong Almacenamiento:] salvo en la distribución directa al cliente o cross-docking, en la que el almacén desaparece, esta etapa es siempre irremediable, ya que la demanda casi nunca corresponde exactamente con la producción, además, todas las empresas suelen disponer de un stock de mercancías para poder abastecer en los picos de demanda. En el cross-docking, el producto viaja directamente desde el lugar de fabricación hasta el cliente. Sin embargo, esta práctica se realiza solo con productos perecederos, que se pueden perder rápidamente, o con algunos que dejan de estar vigentes rápidamente, como los periódicos.
+            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] #[strong Almacenamiento:] salvo en la distribución directa al cliente o #[em cross-docking], en la que el almacén desaparece, esta etapa es siempre irremediable, ya que la demanda casi nunca corresponde exactamente con la producción, además, todas las empresas suelen disponer de un #[em stock] de mercancías para poder abastecer en los picos de demanda. En el #[em cross-docking], el producto viaja directamente desde el lugar de fabricación hasta el cliente. Sin embargo, esta práctica se realiza solo con productos perecederos, que se pueden perder rápidamente, o con algunos que dejan de estar vigentes rápidamente, como los periódicos.
       .col-md-6(style="place-self:center")
         figure
           img(src="@/assets/curso/tema6/6.png" data-aos="fade-left")
@@ -159,11 +159,11 @@
         h4(data-aos="fade-up") Etapas en la gestión logística:
         ul.lista.mt-4
           li.mb-3(data-aos="fade-up")
-            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] #[strong Ventas:] otra de las fases implicadas en la gestión logística es la de las ventas, que comprenderá todas las salidas del almacén por la adquisición de un producto, bien por parte de terceros, como una tienda o supermercado, o bien directamente a usuarios, como el caso de la mayoría de los e-commerce.
+            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] #[strong Ventas:] otra de las fases implicadas en la gestión logística es la de las ventas, que comprenderá todas las salidas del almacén por la adquisición de un producto, bien por parte de terceros, como una tienda o supermercado, o bien directamente a usuarios, como el caso de la mayoría de los #[em e-commerce].
           li.mb-3(data-aos="fade-up")
             p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] #[strong Transporte y distribución:] una vez que se ha gestionado la compraventa, llega la fase de transporte por tierra, mar o aire, y de distribución.
           li(data-aos="fade-up")
-            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] #[strong Servicio al cliente:] principalmente desde la incursión de los e-commerce, el servicio al cliente ha ganado una gran importancia en la logística, ya que abarca gran parte de todo el proceso, de hecho, se pone en marcha desde que el usuario genera un pedido, cuando se pone en marcha toda la maquinaria para su distribución y entrega del pedido.
+            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] #[strong Servicio al cliente:] principalmente desde la incursión de los #[em e-commerce], el servicio al cliente ha ganado una gran importancia en la logística, ya que abarca gran parte de todo el proceso, de hecho, se pone en marcha desde que el usuario genera un pedido, cuando se pone en marcha toda la maquinaria para su distribución y entrega del pedido.
 
 
 
