@@ -98,13 +98,13 @@
           img(src="@/assets/curso/tema7/9.svg" data-aos="fade-left" style="display:inline;")
       .col-lg-7(style="position:relative;place-self:center;")
         .p-4(style="background-color:#F6F6F6;box-shadow:rgb(0 0 0 / 20%) -3px 6px 16px -7px;" data-aos="fade-right")
-          p.mb-0(data-aos="fade-up") El cross docking hace parte de los procesos de logística y consiste en la entrega rápida de un producto.  "Es una técnica de consolidación y preparación de pedidos de productos provenientes de diferentes proveedores para su envío a varios destinos (puntos de venta o clientes), todo en un lapso de tiempo menor a 24 horas" (Alvarado, 2018). 
+          p.mb-0(data-aos="fade-up") El #[em cross docking] hace parte de los procesos de logística y consiste en la entrega rápida de un producto.  "Es una técnica de consolidación y preparación de pedidos de productos provenientes de diferentes proveedores para su envío a varios destinos (puntos de venta o clientes), todo en un lapso de tiempo menor a 24 horas" (Alvarado, 2018). 
 
     .row.mt-5
       .col-md-6.mb-4.mb-md-0(style="place-self:center")
         p(data-aos="fade-up") Es un sistema de distribución donde la mercancía recibida es dispuesta inmediatamente para su envío, en lugar de ser enviada a almacenamiento. Con este procedimiento de logística, la necesidad de almacenaje de los productos se reduce o es totalmente eliminada; al evitar o disminuir el almacenamiento, se conseguirá que el valor de un producto no se vea perjudicado. 
-        p.mt-4(data-aos="fade-up") Otra de las ventajas del cross docking es que disminuye el tiempo de manipulación de los productos, así, la empresa genera un ahorro significativo, ya que no necesitará una gran carga de personal para la labor; igualmente, este sistema de distribución permitirá a la compañía tener una línea de suministros mucho más organizada. 
-        p.mt-4(data-aos="fade-up") Para una efectiva y correcta aplicación del cross docking, se necesita:
+        p.mt-4(data-aos="fade-up") Otra de las ventajas del #[em cross docking] es que disminuye el tiempo de manipulación de los productos, así, la empresa genera un ahorro significativo, ya que no necesitará una gran carga de personal para la labor; igualmente, este sistema de distribución permitirá a la compañía tener una línea de suministros mucho más organizada. 
+        p.mt-4(data-aos="fade-up") Para una efectiva y correcta aplicación del #[em cross docking], se necesita:
         ul.lista.mt-3
           li.mb-2(data-aos="fade-up")
             p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Selección adecuada de los productos.
@@ -122,14 +122,14 @@
         figure
           img(src="@/assets/curso/tema7/10.png" data-aos="fade-left")
 
-    p.mt-5(data-aos="fade-up") La implementación del cross docking puede generar a una empresa oportunidades para ahorrar dinero, aumentar la eficiencia y brindar un mejor servicio a los clientes. De esta forma, puede ser un diferenciador clave entre la organización y sus competidores.
+    p.mt-5(data-aos="fade-up") La implementación del #[em cross docking] puede generar a una empresa oportunidades para ahorrar dinero, aumentar la eficiencia y brindar un mejor servicio a los clientes. De esta forma, puede ser un diferenciador clave entre la organización y sus competidores.
 
     .row.mt-5
       .col-lg-2.mb-4.mb-lg-0(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema7/11.png" data-aos="fade-right")
       .col-md-10(style="place-self:center")
-        p.mb-0(data-aos="fade-up") Desde el punto de vista de la manipulación, el cross docking se caracteriza por la ausencia de picking (descomposición de las unidades de carga en otras menores), o su reducción al mínimo; algunas veces, muchas de las plataformas dedicadas al cross docking están ya totalmente automatizadas, sustituyendo los operarios por cintas transportadoras o carretillas robotizadas.
+        p.mb-0(data-aos="fade-up") Desde el punto de vista de la manipulación, el #[em cross docking] se caracteriza por la ausencia de picking (descomposición de las unidades de carga en otras menores), o su reducción al mínimo; algunas veces, muchas de las plataformas dedicadas al #[em cross docking] están ya totalmente automatizadas, sustituyendo los operarios por cintas transportadoras o carretillas robotizadas.
 
     Separador.mt-5
 
