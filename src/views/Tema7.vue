@@ -40,9 +40,9 @@
 
     .row.mt-5
       .col-lg-2.mb-4.mb-lg-0(style="place-self:center;")
-        figure
-          img(src="@/assets/curso/tema7/3.png" data-aos="fade-right")
-      .col-md-10
+        figure.text-center
+          img(src="@/assets/curso/tema7/3.png" data-aos="fade-right" style="display:inline;max-width:190px")
+      .col-lg-10
         p.mb-0(data-aos="fade-up") Desarrollar e implantar un Sistema de Gestión de la Calidad bajo la Norma ISO 9001 en el sector del transporte es una iniciativa que trae grandes beneficios para todos los grupos de interés. Aunque no se certifique, aplicar este tipo de normas promueve las buenas prácticas para un trabajo más eficiente, productivo y, en algunos casos, la posibilidad de certificación en campos como la seguridad y el cuidado del medio ambiente; aspectos valorados por proveedores.
 
     figure.mt-5
@@ -52,38 +52,38 @@
     p.mt-4(data-aos="fade-up") Los indicadores de calidad ineludibles que deben figurar en la monitorización de operaciones logísticas y transporte son: 
 
     .row.mt-5
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+      .col-md-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false" style="background-color:#FAE7CF;")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-5.p-xl-5
               p #[strong Relación costes-beneficios:] la reducción de costes no debe ni puede afectar la calidad en su totalidad.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema7/5.png')})`}")
-              h4.p-3.text-center(style="background-color:#FAE7CF;position:absolute;width:100%;bottom:20px;border-radius:0px 0px 15px 15px;box-shadow:0px 0px 10px rgba(0,0,0,.1);") Relación costes-beneficios
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema7/5.png')})`}" style="background-color: #fae7cf;")
+              h4.mb-0.p-3.text-center(style="background-color:#FAE7CF;position:absolute;width:100%;bottom:0;border-radius:0px 0px 15px 15px;") Relación costes-beneficios
+      .col-md-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false" style="background-color:#FAE7CF;")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-5.p-xl-5
               p #[strong Tiempos:] la reducción del tiempo en la gestión, la carga y la distribución de mercancías es un aspecto importante en cuanto a calidad del servicio se refiere; por lo tanto, este ítem debe contar con los indicadores oportunos en el conjunto de los KPI de calidad que se implementen.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema7/6.png')})`}")
-              h4.p-3.text-center(style="background-color:#FAE7CF;position:absolute;width:100%;bottom:20px;border-radius:0px 0px 15px 15px;box-shadow:0px 0px 10px rgba(0,0,0,.1);") Tiempos
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema7/6.png')})`}" style="background-color: #fae7cf;")
+              h4.mb-0.p-3.text-center(style="background-color:#FAE7CF;position:absolute;width:100%;bottom:0;border-radius:0px 0px 15px 15px;") Tiempos
+      .col-md-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false" style="background-color:#FAE7CF;")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-5.p-xl-5
               p #[strong Nivel de satisfacción del cliente:] es importante tener una serie de indicadores tanto cuantitativos como cualitativos que permitan medir el servicio prestado. 
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema7/7.png')})`}")
-              h4.p-3.text-center(style="background-color:#FAE7CF;position:absolute;width:100%;bottom:20px;border-radius:0px 0px 15px 15px;box-shadow:0px 0px 10px rgba(0,0,0,.1);") Nivel de satisfacción del cliente
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema7/7.png')})`}" style="background-color: #fae7cf;")
+              h4.mb-0.p-3.text-center(style="background-color:#FAE7CF;position:absolute;width:100%;bottom:0;border-radius:0px 0px 15px 15px;") Nivel de satisfacción del cliente
+      .col-md-6.col-lg-3.mb-4.mb-lg-0
         .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false" style="background-color:#FAE7CF;")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-5.p-xl-5
               p #[strong Operaciones de logística inversa:] este tipo de operaciones debe contar con indicadores específicos que evalúen aspectos como los tiempos de recogida y devolución de los artículos o mercancías al punto de origen, costes repercutidos al cliente, márgenes de beneficios-pérdidas, impacto medioambiental de estas operaciones.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema7/8.png')})`}")
-              h4.p-3.text-center(style="background-color:#FAE7CF;position:absolute;width:100%;bottom:20px;border-radius:0px 0px 15px 15px;box-shadow:0px 0px 10px rgba(0,0,0,.1);") Operaciones de logística inversa
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema7/8.png')})`}" style="background-color: #fae7cf;")
+              h4.mb-0.p-3.text-center(style="background-color:#FAE7CF;position:absolute;width:100%;bottom:0;border-radius:0px 0px 15px 15px;") Operaciones de logística inversa
 
     Separador.mt-5
 
@@ -101,7 +101,7 @@
           p.mb-0(data-aos="fade-up") El #[em cross docking] hace parte de los procesos de logística y consiste en la entrega rápida de un producto.  "Es una técnica de consolidación y preparación de pedidos de productos provenientes de diferentes proveedores para su envío a varios destinos (puntos de venta o clientes), todo en un lapso de tiempo menor a 24 horas" (Alvarado, 2018). 
 
     .row.mt-5
-      .col-md-6.mb-4.mb-md-0(style="place-self:center")
+      .col-lg-6.mb-4.mb-lg-0(style="place-self:center")
         p(data-aos="fade-up") Es un sistema de distribución donde la mercancía recibida es dispuesta inmediatamente para su envío, en lugar de ser enviada a almacenamiento. Con este procedimiento de logística, la necesidad de almacenaje de los productos se reduce o es totalmente eliminada; al evitar o disminuir el almacenamiento, se conseguirá que el valor de un producto no se vea perjudicado. 
         p.mt-4(data-aos="fade-up") Otra de las ventajas del #[em cross docking] es que disminuye el tiempo de manipulación de los productos, así, la empresa genera un ahorro significativo, ya que no necesitará una gran carga de personal para la labor; igualmente, este sistema de distribución permitirá a la compañía tener una línea de suministros mucho más organizada. 
         p.mt-4(data-aos="fade-up") Para una efectiva y correcta aplicación del #[em cross docking], se necesita:
@@ -118,7 +118,7 @@
             p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Proveedores adecuados para evitar incumplimientos.
           li(data-aos="fade-up")
             p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Una efectiva gestión de transporte.
-      .col-md-6(style="place-self:center")
+      .col-lg-6(style="place-self:center")
         figure
           img(src="@/assets/curso/tema7/10.png" data-aos="fade-left")
 
@@ -126,9 +126,9 @@
 
     .row.mt-5
       .col-lg-2.mb-4.mb-lg-0(style="place-self:center;")
-        figure
-          img(src="@/assets/curso/tema7/11.png" data-aos="fade-right")
-      .col-md-10(style="place-self:center")
+        figure.text-center
+          img(src="@/assets/curso/tema7/11.png" data-aos="fade-right" style="display:inline;max-width:190px")
+      .col-lg-10(style="place-self:center")
         p.mb-0(data-aos="fade-up") Desde el punto de vista de la manipulación, el #[em cross docking] se caracteriza por la ausencia de picking (descomposición de las unidades de carga en otras menores), o su reducción al mínimo; algunas veces, muchas de las plataformas dedicadas al #[em cross docking] están ya totalmente automatizadas, sustituyendo los operarios por cintas transportadoras o carretillas robotizadas.
 
     Separador.mt-5
@@ -148,32 +148,32 @@
     SlyderF.mt-5.col-md-10.m-auto(columnas="col-lg-6")
       .tarjeta-avatar
         img(src='@/assets/curso/tema7/13.png')
-        .tarjeta.color-primario(style="background-color:#FAE7CF;")
+        .tarjeta.color-primario(style="background-color:#FAE7CF;min-height:300px;")
           .p-4
             p.text-center.mt-4(style="color:#12263F;") #[strong(style="color:#12263F;") Rapidez en la entrega:] Se debe elegir el medio de transporte y la empresa proveedora que cumpla con la entrega de la mercancía en el plazo pactado.
       .tarjeta-avatar
         img(src='@/assets/curso/tema7/14.png')
-        .tarjeta.color-primario(style="background-color:#FAE7CF;")
+        .tarjeta.color-primario(style="background-color:#FAE7CF;min-height:300px;")
           .p-4
             p.text-center.mt-4(style="color:#12263F;") #[strong(style="color:#12263F;") Costos:] se deben contemplar varias unidades de transporte para ajustar todo lo relacionado con el flete; a pesar de que hay un estándar de precios, es recomendable hacer un estudio antes de elegir la mejor opción.
       .tarjeta-avatar
         img(src='@/assets/curso/tema7/15.png')
-        .tarjeta.color-primario(style="background-color:#FAE7CF;")
+        .tarjeta.color-primario(style="background-color:#FAE7CF;min-height:300px;")
           .p-4
             p.text-center.mt-4(style="color:#12263F;") #[strong(style="color:#12263F;") Eficiencia:] si es necesaria una empresa proveedora de vehículos de transporte, ésta debe contar con servicios adicionales que solucionen las distintas eventualidades que se puedan presentar.
       .tarjeta-avatar
         img(src='@/assets/curso/tema7/16.png')
-        .tarjeta.color-primario(style="background-color:#FAE7CF;")
+        .tarjeta.color-primario(style="background-color:#FAE7CF;min-height:300px;")
           .p-4
             p.text-center.mt-4(style="color:#12263F;") #[strong(style="color:#12263F;") Seguridad:] los vehículos deben garantizar la entrega de la mercancía en óptimas condiciones, contar con GPS.
       .tarjeta-avatar
         img(src='@/assets/curso/tema7/17.png')
-        .tarjeta.color-primario(style="background-color:#FAE7CF;")
+        .tarjeta.color-primario(style="background-color:#FAE7CF;min-height:300px;")
           .p-4
             p.text-center.mt-4(style="color:#12263F;") #[strong(style="color:#12263F;") Precisión:] para una mayor tranquilidad de los clientes y evitar contratiempos, es importante que los vehículos sean de calidad y, en lo posible, modernos.
       .tarjeta-avatar
         img(src='@/assets/curso/tema7/18.png')
-        .tarjeta.color-primario(style="background-color:#FAE7CF;")
+        .tarjeta.color-primario(style="background-color:#FAE7CF;min-height:300px;")
           .p-4
             p.text-center.mt-4(style="color:#12263F;") #[strong(style="color:#12263F;") Modo:] el tipo de transporte debe satisfacer los requerimientos de la carga, puede ser un vehículo de carretera, ferroviario, marítimo o aéreo.
 

@@ -44,8 +44,47 @@ export default {
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
   color: #fff !important
 .banner-principal-decorativo-1
-  top: 10% !important
-  right: 15% !important
+  top: 35% !important
+  right: 82% !important
+  -webkit-animation: float1 3.5s ease-in-out infinite alternate
+  animation: float1 3.5s ease-in-out infinite alternate
+.banner-principal-decorativo-2
+  top: 51% !important
+  right: 83% !important
+  -webkit-animation: float1 3.5s ease-in-out infinite alternate
+  animation: float1 3.5s ease-in-out infinite alternate
+.banner-principal-decorativo-3
+  top: 64% !important
+  max-width: 80px
+  right: 80% !important
+  -webkit-animation: float1 3.5s ease-in-out infinite alternate
+  animation: float1 3.5s ease-in-out infinite alternate
+.banner-principal-decorativo-4
+  top: 68% !important
+  right: 47% !important
+  -webkit-animation: float1 3.5s ease-in-out infinite alternate
+  animation: float1 3.5s ease-in-out infinite alternate
+.banner-principal-decorativo-5
+  top: 70% !important
+  right: 35% !important
+  -webkit-animation: float1 3.5s ease-in-out infinite alternate
+  animation: float1 3.5s ease-in-out infinite alternate
+.banner-principal-decorativo-6
+  top: 47% !important
+  right: 23% !important
+  max-width: 140px
+  -webkit-animation: float1 3.5s ease-in-out infinite alternate
+  animation: float1 3.5s ease-in-out infinite alternate
+.banner-principal-decorativo-7
+  top: 32% !important
+  right: 30% !important
+  max-width: 70px
+  -webkit-animation: float1 3.5s ease-in-out infinite alternate
+  animation: float1 3.5s ease-in-out infinite alternate
+.banner-principal-decorativo-8
+  top: 7% !important
+  right: 30% !important
+  max-width: 170px
   -webkit-animation: float1 3.5s ease-in-out infinite alternate
   animation: float1 3.5s ease-in-out infinite alternate
 </style>

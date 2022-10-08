@@ -88,8 +88,8 @@
 
     .row.mt-5
       .col-lg-2.mb-4.mb-lg-0(style="place-self:center;")
-        figure
-          img(src="@/assets/curso/tema4/1.png" data-aos="fade-right")
+        figure.text-center
+          img(src="@/assets/curso/tema4/1.png" data-aos="fade-right" style="display:inline;max-width:190px")
       .col-md-10
         h5(data-aos="fade-up") Normatividad vigente para el transporte de carga: velocidades y tiempos permitidos.
         p.mt-3(data-aos="fade-up") En Colombia, la normatividad vigente que regula la velocidad en carreteras nacionales, departamentales, distritales y municipales está dada por la Resolución 1384 de 2010, del Ministerio de Transporte, donde se establecen los límites permitidos en los diferentes corredores viales, bajo el manual denominado "Método para establecer límites de velocidad en carreteras colombianas", elaborado por la Universidad del Cauca, el cual hace parte integral de esta resolución. 
@@ -101,8 +101,8 @@
 
     .row.mt-5
       .col-lg-2.mb-4.mb-lg-0(style="place-self:center;")
-        figure
-          img(src="@/assets/curso/tema4/3.png" data-aos="fade-right")
+        figure.text-center
+          img(src="@/assets/curso/tema4/3.png" data-aos="fade-right" style="display:inline;max-width:190px")
       .col-md-10
         h5(data-aos="fade-up") Ruteo de flotas de distribución a centros de venta
         p.mt-3(data-aos="fade-up") Dentro de la operación de transporte, es importante buscar un camino entre todas las opciones posibles en una red de distribución, permitiendo programar rutas efectivas a cualquier destino.

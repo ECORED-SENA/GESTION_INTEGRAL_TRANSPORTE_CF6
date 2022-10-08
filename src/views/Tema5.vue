@@ -55,7 +55,7 @@
 
     p.mt-5(data-aos="fade-up") Hay diferentes pasos que completan este ciclo, en algunos casos, el orden pudiese cambiar, pero en general el ciclo se comprende por los siguientes momentos:
 
-    LineaTiempoC.color-acento-contenido.mt-5.p-5(style="background-color:#EEECF4;border-radius:20px;")
+    PasosB.color-acento-contenido.mt-5.p-5(style="background-color:#EEECF4;border-radius:20px;")
       .row.mt-4(titulo="Recepción del pedido")
         .col-md-6.mb-4.mb-md-0(style="place-self:center")
           figure
@@ -128,34 +128,43 @@
 
     br
     .row.mt-5
-      .col-md-3.mb-4.mb-md-0(style="place-self:center")
+      .col-lg-3.mb-4.mb-lg-0(style="place-self:center")
         h4(data-aos="fade-up") Características y funcionalidades
         p.mt-3(data-aos="fade-up") El SCM abarca lo siguiente:
-        ul.lista.mt-3
+        ul.lista-ul.mt-3
           li(data-aos="fade-up") 
-            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Compras
+            i.fas.fa-check(style="color:#FFBA5B;")
+            | Compras
           li(data-aos="fade-up") 
-            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Producción
+            i.fas.fa-check(style="color:#FFBA5B;")
+            | Producción
           li(data-aos="fade-up") 
-            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Contratación
+            i.fas.fa-check(style="color:#FFBA5B;")
+            | Contratación
           li(data-aos="fade-up") 
-            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Inventario
+            i.fas.fa-check(style="color:#FFBA5B;")
+            | Inventario
           li(data-aos="fade-up") 
-            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Dsitribución
-      .col-md-3.mb-4.mb-md-0(style="place-self:center")
+            i.fas.fa-check(style="color:#FFBA5B;")
+            | Dsitribución
+      .col-lg-3.mb-4.mb-lg-0.d-none.d-lg-flex(style="place-self:center")
         figure.text-center
           img(src="@/assets/curso/tema5/13.png" data-aos="zoom-in-up" style="display:inline;max-width:200px;")
-      .col-md-6(style="place-self:center")
+      .col-lg-6(style="place-self:center")
         h4(data-aos="fade-up") Procesos de la cadena de suministro
-        ul.lista.mt-3
+        ul.lista-ul.mt-3
           li(data-aos="fade-up") 
-            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Planeamiento entre la demanda y la oferta para abastecer al consumidor.
+            i.fas.fa-check(style="color:#FFBA5B;")
+            | Planeamiento entre la demanda y la oferta para abastecer al consumidor.
           li(data-aos="fade-up") 
-            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Abastecimiento mediante planes y alianzas con proveedores, para lograr mínimos costos de entrega.
+            i.fas.fa-check(style="color:#FFBA5B;")
+            | Abastecimiento mediante planes y alianzas con proveedores, para lograr mínimos costos de entrega.
           li(data-aos="fade-up") 
-            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Manufactura con máxima flexibilidad y velocidad, a bajos costos, para responder al mercado.
+            i.fas.fa-check(style="color:#FFBA5B;")
+            | Manufactura con máxima flexibilidad y velocidad, a bajos costos, para responder al mercado.
           li(data-aos="fade-up") 
-            p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Entrega mediante movimiento eficiente de productos desde los almacenes a los clientes.
+            i.fas.fa-check(style="color:#FFBA5B;")
+            | Entrega mediante movimiento eficiente de productos desde los almacenes a los clientes.
 
     p.mt-5(data-aos="fade-up") En conclusión, el SCM no sólo permite ir más allá del registro y seguimiento del proceso, sino que ayuda a identificar los elementos clave de la cadena de suministro, a realizar tendencias y pronósticos de producción y ventas; ayuda en la planificación integral de los procesos y planeación colaborativa, optimización y entrega a tiempo a los clientes, con lo que se mejora el nivel de servicio y satisfacción, lo cual deriva también en reducción de costos de inventario, de transporte y de administración.
 

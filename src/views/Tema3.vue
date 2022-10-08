@@ -20,35 +20,39 @@
 
     SlyderA.p-5.mt-5.slydertema2(tipo="b" style="background-color:#EFF5FA;border-radius:15px;")
       .row
-        .col-md-4.mb-4.mb-md-0
+        .col-lg-4.mb-4.mb-lg-0
           h4 Plataformas logísticas o almacenes centrales: 
           p.mt-4 Es una zona delimitada en la que se concentran actividades y funciones logísticas.
-          ul.lista.mt-4
+          ul.lista-ul.mt-4
             li 
-              p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Su tarea fundamental es ahorrar costes en el almacenaje y distribución de productos.
+              i.fas.fa-check(style="color:#FFBA5B;")
+              | Su tarea fundamental es ahorrar costes en el almacenaje y distribución de productos.
             li 
-              p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Hacer pedidos más grandes.
+              i.fas.fa-check(style="color:#FFBA5B;")
+              | Hacer pedidos más grandes.
             li 
-              p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Ubicar el almacenaje en lugares donde el coste del suelo es más reducido.
+              i.fas.fa-check(style="color:#FFBA5B;")
+              | Ubicar el almacenaje en lugares donde el coste del suelo es más reducido.
             li 
-              p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] Reducir el número de transportes necesarios.
-        .col-md-8
+              i.fas.fa-check(style="color:#FFBA5B;")
+              | Reducir el número de transportes necesarios.
+        .col-lg-8
           figure
             img(src='@/assets/curso/tema3/2.png')
       .row
-        .col-md-4.mb-4.mb-md-0
+        .col-lg-4.mb-4.mb-lg-0
           h4 Almacenes de consolidación o de tránsito: 
           p.mt-4 Son sitios o almacenes que agrupan pedidos de tamaño pequeño o medio, de una zona geográfica, con el fin de ahorrar costos de transporte. Este tipo de almacén es muy utilizado por las empresas de transporte, en especial las de paquetería.
           p.mt-4 Está, por lo general, localizado en algún punto intermedio entre el almacén regional y el lugar de consumo. Cuando entre ambos hay una distancia que se tarda más de un día en cubrir, se suelen utilizar equipos y sistemas de almacenamiento sencillos. 
-        .col-md-8
+        .col-lg-8
           figure
             img(src='@/assets/curso/tema3/3.png')
       .row
-        .col-md-4.mb-4.mb-md-0
+        .col-lg-4.mb-4.mb-lg-0
           h4 Almacenes regionales o locales:
           p.mt-4 Distribuyen los pedidos de clientes o puntos de ventas de un área geográfica concreta; su tarea fundamental es desconsolidar o desagrupar los envíos. 
           p.mt-4 Se caracterizan por su especial diseño, adecuado para recibir grandes vehículos para la descarga de mercancía. La ruta de distribución de los productos del almacén al centro de consumo no debe ser superior a un día.
-        .col-md-8
+        .col-lg-8
           figure
             img(src='@/assets/curso/tema3/4.png')
 

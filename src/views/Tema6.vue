@@ -13,42 +13,42 @@
     h3.mt-5(data-aos="fade-up") Manipulación de carga
 
     .row.mt-5
-      .col-md-6.mb-4.mb-md-0
+      .col-lg-6.mb-4.mb-lg-0
         p(data-aos="fade-up") A pesar de los avances tecnológicos, aún se requiere, en algunos procesos, de la manipulación manual de algunos objetos o productos. Por otro lado, la mecanización y automatización en los procesos de construcción, reducen los tiempos de los ciclos, incrementando la frecuencia de las operaciones manuales de carga y evacuación.
         p.mt-4(data-aos="fade-up") La manipulación manual comporta peligros de diversa naturaleza, según la medida, forma y peso de los objetos; peligros que tienen la posibilidad de traducirse en cortes, golpes por atrapamiento o caída de objetos, etcétera. El esfuerzo muscular causa un crecimiento del ritmo cardíaco y del ritmo respiratorio. Las articulaciones, en algunos casos, resultan demasiado afectadas, en especial, las de la columna vertebral. 
 
         h4.mt-5(data-aos="fade-up") Generalmente, estos factores aparecen cuando:
         ol.lista-ol--cuadro.mt-4(style="list-style:unstyled !important")
-        li(data-aos="fade-up" style="list-style:none;")
-          .lista-ol--cuadro__vineta
-            span 1
-          | Los objetos son de difícil agarre por su forma o tamaño.
-        li(data-aos="fade-up" style="list-style:none;")
-          .lista-ol--cuadro__vineta
-            span 2
-          | Las cargas son muy pesadas.
-        li(data-aos="fade-up" style="list-style:none;")
-          .lista-ol--cuadro__vineta
-            span 3
-          | Las diferencias entre la altura de agarre y de colocación de la carga son grandes.
-        li(data-aos="fade-up" style="list-style:none;")
-          .lista-ol--cuadro__vineta
-            span 4
-          | El transporte manual se hace a distancias largas.
-        li(data-aos="fade-up" style="list-style:none;")
-          .lista-ol--cuadro__vineta
-            span 5
-          | Se realizan movimientos y posturas inadecuadas (pecho excesivamente inclinado, posición del eje del cuerpo desplazado, tronco en tensión, etc.).
-      .col-md-6(style="place-self:end;")
+          li(data-aos="fade-up" style="list-style:none;")
+            .lista-ol--cuadro__vineta
+              span 1
+            | Los objetos son de difícil agarre por su forma o tamaño.
+          li(data-aos="fade-up" style="list-style:none;")
+            .lista-ol--cuadro__vineta
+              span 2
+            | Las cargas son muy pesadas.
+          li(data-aos="fade-up" style="list-style:none;")
+            .lista-ol--cuadro__vineta
+              span 3
+            | Las diferencias entre la altura de agarre y de colocación de la carga son grandes.
+          li(data-aos="fade-up" style="list-style:none;")
+            .lista-ol--cuadro__vineta
+              span 4
+            | El transporte manual se hace a distancias largas.
+          li(data-aos="fade-up" style="list-style:none;")
+            .lista-ol--cuadro__vineta
+              span 5
+            | Se realizan movimientos y posturas inadecuadas (pecho excesivamente inclinado, posición del eje del cuerpo desplazado, tronco en tensión, etc.).
+      .col-lg-6(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema6/1.png" data-aos="zoom-in-up")
 
     br
     .row.mt-5
-      .col-md-6.mb-4.mb-md-0(style="place-self:center")
+      .col-lg-6.mb-4.mb-lg-0.order-2.order-lg-0.mt-4.mt-lg-0(style="place-self:center")
         figure
           img(src="@/assets/curso/tema6/2.png" data-aos="zoom-in-up")
-      .col-md-6(style="place-self:center")
+      .col-lg-6.order-1.order-lg-0(style="place-self:center")
         h4(data-aos="fade-up") Entrega de mercancías
         p.mt-4(data-aos="fade-up") Es el proceso por el cual el operador de transporte pone las mercancías a disposición efectiva y material del consignatario, de conformidad con el contrato de transporte, las leyes, los usos y costumbres imperantes en el lugar de entrega; aquí, se involucran las operaciones logísticas de despacho de mercancías, transporte de mercancías, planificación de rutas y otras necesarias para garantizar que el producto llegue a su destino final, cumpliendo así con una entrega a tiempo y en las condiciones prometidas al cliente.
         h3.mt-5(data-aos="fade-up") Procedimientos para la entrega de mercancías:
@@ -138,7 +138,7 @@
 
     br
     .row.mt-5
-      .col-md-6.mb-4.mb-md-0(style="place-self:center")
+      .col-lg-6.mb-4.mb-lg-0(style="place-self:center")
         h4(data-aos="fade-up") Etapas en la gestión logística:
         p.mt-4(data-aos="fade-up") La logística se puede entender como el nexo entre la producción y el mercado. En todo este proceso de la cadena de suministro, las técnicas de organización y gestión logística se aplican en todas estas etapas:
         ul.lista.mt-4
@@ -146,16 +146,16 @@
             p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] #[strong Inventario:] en el inventario del almacén, se gestionan todas las entradas y salidas de mercancías, para tener siempre una noción precisa del #[em stock] del que se dispone.
           li(data-aos="fade-up")
             p.mb-0 #[i.fas.fa-check(style="color:#FFBA5B;")] #[strong Almacenamiento:] salvo en la distribución directa al cliente o #[em cross-docking], en la que el almacén desaparece, esta etapa es siempre irremediable, ya que la demanda casi nunca corresponde exactamente con la producción, además, todas las empresas suelen disponer de un #[em stock] de mercancías para poder abastecer en los picos de demanda. En el #[em cross-docking], el producto viaja directamente desde el lugar de fabricación hasta el cliente. Sin embargo, esta práctica se realiza solo con productos perecederos, que se pueden perder rápidamente, o con algunos que dejan de estar vigentes rápidamente, como los periódicos.
-      .col-md-6(style="place-self:center")
+      .col-lg-6(style="place-self:center")
         figure
           img(src="@/assets/curso/tema6/6.png" data-aos="fade-left")
 
     br
     .row.mt-5
-      .col-md-6.mb-4.mb-md-0(style="place-self:center")
+      .col-lg-6.mb-4.mb-lg-0.order-2.order-lg-0.mt-4.mt-lg-0(style="place-self:center")
         figure
           img(src="@/assets/curso/tema6/7.png" data-aos="fade-left")
-      .col-md-6(style="place-self:center")
+      .col-lg-6.order-1.order-lg-0(style="place-self:center")
         h4(data-aos="fade-up") Etapas en la gestión logística:
         ul.lista.mt-4
           li.mb-3(data-aos="fade-up")
