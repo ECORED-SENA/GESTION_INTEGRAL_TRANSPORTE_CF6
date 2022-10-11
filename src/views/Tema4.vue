@@ -10,10 +10,10 @@
     p(data-aos="fade-up") Luego de escoger un modo de transporte y tener la mercancía para transportar del lugar X al Y, se decide la ruta a seguir (R) y el vehículo (V). Se debe dar un mapa con diferentes opciones, prevaleciendo siempre la más corta.
 
     .row.mt-5
-      .col-lg-2.mb-4.mb-lg-0
+      .col-md-3.mb-4.mb-md-0.d-none.d-md-block
         figure.text-center
           img(src="@/assets/curso/tema4/5.png" data-aos="fade-right" style="display:inline;max-width:150px;")
-      .col-lg-10
+      .col-md-9
         h4(data-aos="fade-up") #[span(style="background-color:#5B4794;padding:.4rem 3rem;border-radius:5px;color:white;") Selección de rutas de transporte]
         p.mt-4(data-aos="fade-up") A la hora de transportar mercancía, tenemos puntos de origen y destino distintos y únicos. Para lograr una correcta movilización de la mercancía, necesitamos elaborar una red; conozcamos los elementos de esta:
 
@@ -33,23 +33,23 @@
           li(data-aos="fade-up") 
             p #[i.fas.fa-check(style="color:#FFBA5B;")] #[strong(style="color:#5B4794;") Y el Objetivo:] que busca minimizar la distancia (o tiempo) entre el origen y el destino.
 
-    .row.mt-5
+    .row.mt-4
       .col-lg-7.mb-4.mb-lg-0
         p(data-aos="fade-up") Hay métodos que nos pueden ayudar para elegir rutas óptimas o funcionales:
         p.mt-4(data-aos="fade-up") El primero es  #[strong(style="color:#5B4794;") “El problema del viajero”]. Método sencillo a la hora de asignar nodos y volúmenes de mercancía a rutas, tiene como finalidad hallar el recorrido más completo, haciendo conexión con todos los nodos de una red, pasando por allí solo una vez y regresando al punto de partida; es importante que además se minimice tanto el tiempo como la ruta, pudiendo obtener del ejercicio diferentes opciones.
         p.mt-5(data-aos="fade-up") La siguiente ecuación determina la cantidad de rutas posibles en una red: #[strong(style="color:#5B4794;background-color:#DBD2F3;padding:.3rem;") (n-1)!]
         p.mt-4(data-aos="fade-up") Lo que significa que en una red de #[strong(style="color:#5B4794;background-color:#DBD2F3;padding:.3rem;") 5 nodos podemos tener: (5-1)! = 24 rutas posibles;] y, a medida que el número de nodos aumente, la cantidad de rutas posibles crece proporcionalmente. En el caso de que las distancias sean simétricas la cantidad de rutas posibles se reduce a la mitad, es decir: #[strong(style="color:#5B4794;background-color:#DBD2F3;padding:.3rem;") ( (n-1)!) / 2]
         .mt-4.p-4(style="background-color:#FCF2E5;")
-          p.mb-0(data-aos="fade-up") El objetivo de este método es calcular la mejor ruta para la distribución y optimizar, utilizando el mejor escenario posible. Lo cual significa un ahorro significativo en el tiempo de procesamiento al calcular rutas de gran tamaño.
-      .col-lg-5
+          p.mb-0(data-aos="fade-up") El objetivo de este método es calcular #[strong(style="color:#5B4794;") la mejor ruta para la distribución y optimizar,] utilizando el mejor escenario posible. Lo cual significa un ahorro significativo en el tiempo de procesamiento al calcular rutas de gran tamaño.
+      .col-lg-5.col-md-8.col-sm-10.m-auto
         figure
           img(src="@/assets/curso/tema4/7.png" data-aos="fade-left")
 
     .row.mt-5
-      .col-lg-2.mb-4.mb-lg-0
+      .col-md-3.mb-4.mb-md-0.d-none.d-md-block
         figure.text-center
           img(src="@/assets/curso/tema4/8.png" data-aos="fade-right" style="display:inline;max-width:150px;")
-      .col-lg-10
+      .col-md-9
         h4(data-aos="fade-up") #[span(style="background-color:#5B4794;padding:.4rem 3rem;border-radius:5px;color:white;") Método de la fuerza bruta]
         p.mt-4(data-aos="fade-up") Se han generado varias iniciativas con el fin de ser más eficientes en el cálculo de rutas a raíz de la dificultad que se presenta con el agente viajero. Existe un método muy común, nombrado fuerza bruta, donde se calculan todos los posibles recorridos, pero no es funcional en redes de gran tamaño, como en el método anterior.
 

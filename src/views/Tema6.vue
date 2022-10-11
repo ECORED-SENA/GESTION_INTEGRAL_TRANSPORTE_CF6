@@ -76,62 +76,62 @@
 
     br
     .row.mt-5
-      .col-md-6.mb-4.mb-md-0(style="place-self:center")
+      .col-lg-6.mb-4.mb-lg-0(style="place-self:center")
         h4(data-aos="fade-up") Recibo de mercancías
         p(data-aos="fade-up") Este proceso está compuesto por las operaciones de recibo de documentos, recibo del camión, descarga y verificación de la mercancía y almacenamiento de la misma.
         p.mt-4(data-aos="fade-up") Al llegar al centro de distribución del comerciante, el conductor debe entregar los documentos que acompañan la carga, como la factura o la remisión; en la mayoría de los almacenes, la mercancía no tiene horario de recepción, sino que el turno de la descarga se asigna según el orden de llegada; aunque algunos almacenes asignan horarios fijos a los proveedores.
         p.mt-4(data-aos="fade-up") Se suele hacer una verificación de las mercancías y/o artículos que llegan al lugar de distribución. #[br] Se hace conteo ciego, aquí el operario obtiene una lista de las referencias pedidas y proviene a hacer el conteo de las unidades que obtiene; al final, esta información es ingresada al sistema que hace la comparación de las porciones pedidas y, cuando la mercancía es verificada, se proviene al almacenamiento en la bodega, para lo que los productos son estibados y transportados con ayuda de montacargas al área de almacenamiento.
-      .col-md-6(style="place-self:center")
+      .col-lg-6(style="place-self:center")
         figure
           img(src="@/assets/curso/tema6/3.png" data-aos="fade-left")
     br
     .row.mt-5
-      .col-md-6.mb-4.mb-md-0(style="place-self:center")
+      .col-lg-6.mb-4.mb-lg-0(style="place-self:center")
         h4(data-aos="fade-up") Procedimientos para la entrega de mercancías:
         ol.lista-ol--cuadro.mt-4(style="list-style:unstyled !important")
-        li(data-aos="fade-up" style="list-style:none;")
-          .lista-ol--cuadro__vineta
-            span 1
-          | El recibo de mercancía se hará por la parte posterior del negocio, de ser posible.
-        li(data-aos="fade-up" style="list-style:none;")
-          .lista-ol--cuadro__vineta
-            span 2
-          | Se le recibirá a los proveedores en la medida en que van llegando.
-        li(data-aos="fade-up" style="list-style:none;")
-          .lista-ol--cuadro__vineta
-            span 3
-          | La revisión de la mercancía debe ser minuciosa, incluyendo las cajas cerradas, para comprobar que el artículo o mercancía esté en perfectas condiciones, verificar peso de mercancía que lo requiera, chequear caducidades, etc.
-        li(data-aos="fade-up" style="list-style:none;")
-          .lista-ol--cuadro__vineta
-            span 4
-          | En dado caso de que el proveedor traiga mercancía con alguna irregularidad, se devolverán esos productos y se realizará un acta.
-        li(data-aos="fade-up" style="list-style:none;")
-          .lista-ol--cuadro__vineta
-            span 5
-          | Revisar facturas de mercancía; en caso de haber un error, corregir en el documento la cantidad errónea.
-        li(data-aos="fade-up" style="list-style:none;")
-          .lista-ol--cuadro__vineta
-            span 6
-          | La revisión de facturas se hará en el momento de recibir la mercancía.
-        li(data-aos="fade-up" style="list-style:none;")
-          .lista-ol--cuadro__vineta
-            span 7
-          | Llevar un control en el formato de recibo de las mercancías que se reciben por proveedor; al final del recibo, solicitar firma de la persona representante del proveedor.
-        li(data-aos="fade-up" style="list-style:none;")
-          .lista-ol--cuadro__vineta
-            span 8
-          | Toda la mercancía recibida debe ser colocada en su lugar correcto en el almacén y ser registrada en sistema.
-      .col-md-6(style="place-self:center")
+          li(data-aos="fade-up" style="list-style:none;")
+            .lista-ol--cuadro__vineta
+              span 1
+            | El recibo de mercancía se hará por la parte posterior del negocio, de ser posible.
+          li(data-aos="fade-up" style="list-style:none;")
+            .lista-ol--cuadro__vineta
+              span 2
+            | Se le recibirá a los proveedores en la medida en que van llegando.
+          li(data-aos="fade-up" style="list-style:none;")
+            .lista-ol--cuadro__vineta
+              span 3
+            | La revisión de la mercancía debe ser minuciosa, incluyendo las cajas cerradas, para comprobar que el artículo o mercancía esté en perfectas condiciones, verificar peso de mercancía que lo requiera, chequear caducidades, etc.
+          li(data-aos="fade-up" style="list-style:none;")
+            .lista-ol--cuadro__vineta
+              span 4
+            | En dado caso de que el proveedor traiga mercancía con alguna irregularidad, se devolverán esos productos y se realizará un acta.
+          li(data-aos="fade-up" style="list-style:none;")
+            .lista-ol--cuadro__vineta
+              span 5
+            | Revisar facturas de mercancía; en caso de haber un error, corregir en el documento la cantidad errónea.
+          li(data-aos="fade-up" style="list-style:none;")
+            .lista-ol--cuadro__vineta
+              span 6
+            | La revisión de facturas se hará en el momento de recibir la mercancía.
+          li(data-aos="fade-up" style="list-style:none;")
+            .lista-ol--cuadro__vineta
+              span 7
+            | Llevar un control en el formato de recibo de las mercancías que se reciben por proveedor; al final del recibo, solicitar firma de la persona representante del proveedor.
+          li(data-aos="fade-up" style="list-style:none;")
+            .lista-ol--cuadro__vineta
+              span 8
+            | Toda la mercancía recibida debe ser colocada en su lugar correcto en el almacén y ser registrada en sistema.
+      .col-lg-6(style="place-self:center")
         figure
           img(src="@/assets/curso/tema6/4.png" data-aos="fade-left")
 
     br
     h3.mt-5(data-aos="fade-up") Gestión de logística
     .row.mt-4
-      .col-md-6.mb-4.mb-md-0(style="place-self:center")
+      .col-lg-6.mb-4.mb-lg-0(style="place-self:center")
         figure
           img(src="@/assets/curso/tema6/5.svg" data-aos="fade-right")
-      .col-md-6(style="place-self:center")
+      .col-lg-6(style="place-self:center")
         p(data-aos="fade-up") La gestión de la logística es el flujo de materias primas, productos, servicios e información a lo largo de toda la cadena de suministro de un producto o servicio. Se puede comprender la logística como la gestión de todas las operaciones que buscan garantizar la disponibilidad de un determinado elemento (producto, servicio, información) en tiempo y forma óptimos.
         p.mt-4(data-aos="fade-up") La gestión de la logística incluye todo lo relacionado con el transporte de mercancías, el almacenamiento, el #[em picking] o preparación de pedidos y el transporte hasta los intermediarios que llevarán a cabo la venta o hasta los domicilios particulares, en el caso de un #[em e-commerce].
         p.mt-4(data-aos="fade-up") Los principales objetivos que persigue una gestión logística eficiente son la disminución de costes, el aumento de competitividad y la calidad en todos los procesos: desde el almacenamiento, hasta el transporte y distribución, pasando por el #[em picking].

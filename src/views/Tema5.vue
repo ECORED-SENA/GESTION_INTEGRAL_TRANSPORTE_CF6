@@ -18,10 +18,10 @@
 
     br
     .row.mt-5
-      .col-md-6.mb-4.mb-md-0(style="place-self:center;")
+      .col-lg-6.mb-4.mb-lg-0.m-auto.col-md-8.col-sm-10.order-2.order-lg-0(style="place-self:center;")
         figure
           img(src="@/assets/curso/tema5/2.png" data-aos="fade-right")
-      .col-md-6(style="place-self:center;")
+      .col-lg-6.order-1.order-lg-0(style="place-self:center;")
         p(data-aos="fade-up") Los factores que intervienen en la selección del modo de transporte son normalmente los siguientes:
         ul.lista.mt-4
           li(data-aos="fade-up") 

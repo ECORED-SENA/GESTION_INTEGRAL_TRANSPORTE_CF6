@@ -36,7 +36,7 @@
           .tarjeta.tarjeta--azul(style="background-color:#FAE7CF;")
             .p-4
               h4(data-aos="fade-up") Ventajas
-              ul.lista-ul.mt-4
+              ul.lista-ul--color.mt-4
                 li(data-aos="fade-up") 
                   i.fas.fa-check(style="color:#FFBA5B;")
                   | Se disminuye mucho la incertidumbre en el plazo de entrega.
@@ -50,7 +50,7 @@
           .tarjeta.tarjeta--azul(style="background-color:#FAE7CF;")
             .p-4
               h4(data-aos="fade-up") Desventajas
-              ul.lista-ul.mt-4
+              ul.lista-ul--color.mt-4
                 li(data-aos="fade-up") 
                   i.fas.fa-check(style="color:#FFBA5B;")
                   | Costos fijos elevados por el número de CD (Centros de Distribución), personas de control y seguridad.
@@ -80,7 +80,7 @@
           .tarjeta.tarjeta--azul(style="background-color:#FAE7CF;")
             .p-4
               h4(data-aos="fade-up") Ventajas
-              ul.lista-ul.mt-4
+              ul.lista-ul--color.mt-4
                 li(data-aos="fade-up") 
                   i.fas.fa-check(style="color:#FFBA5B;")
                   | Ahorro en el transporte desde origen.
@@ -100,7 +100,7 @@
           .tarjeta.tarjeta--azul(style="background-color:#FAE7CF;")
             .p-4
               h4(data-aos="fade-up") Desventajas
-              ul.lista-ul.mt-4
+              ul.lista-ul--color.mt-4
                 li(data-aos="fade-up") 
                   i.fas.fa-check(style="color:#FFBA5B;")
                   | Mayores costes de transporte a los destinos finales. 
@@ -125,7 +125,7 @@
           .tarjeta.tarjeta--azul(style="background-color:#FAE7CF;")
             .p-4
               h4(data-aos="fade-up") Ventajas
-              ul.lista-ul.mt-4
+              ul.lista-ul--color.mt-4
                 li(data-aos="fade-up") 
                   i.fas.fa-check(style="color:#FFBA5B;")
                   | Ahorro de costo de almacenamiento de inventario.
@@ -151,7 +151,7 @@
           .tarjeta.tarjeta--azul(style="background-color:#FAE7CF;")
             .p-4
               h4(data-aos="fade-up") Desventajas
-              ul.lista-ul.mt-4
+              ul.lista-ul--color.mt-4
                 li(data-aos="fade-up") 
                   i.fas.fa-check(style="color:#FFBA5B;")
                   | Se necesita inversión para reestructurar todo para #[em cross-docking].

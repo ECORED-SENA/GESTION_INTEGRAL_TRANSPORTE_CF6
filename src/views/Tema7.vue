@@ -52,7 +52,7 @@
     p.mt-4(data-aos="fade-up") Los indicadores de calidad ineludibles que deben figurar en la monitorización de operaciones logísticas y transporte son: 
 
     .row.mt-5
-      .col-md-6.col-lg-3.mb-4.mb-lg-0
+      .col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false" style="background-color:#FAE7CF;")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -60,7 +60,7 @@
               p #[strong Relación costes-beneficios:] la reducción de costes no debe ni puede afectar la calidad en su totalidad.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema7/5.png')})`}" style="background-color: #fae7cf;")
               h4.mb-0.p-3.text-center(style="background-color:#FAE7CF;position:absolute;width:100%;bottom:0;border-radius:0px 0px 15px 15px;") Relación costes-beneficios
-      .col-md-6.col-lg-3.mb-4.mb-lg-0
+      .col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false" style="background-color:#FAE7CF;")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -68,7 +68,7 @@
               p #[strong Tiempos:] la reducción del tiempo en la gestión, la carga y la distribución de mercancías es un aspecto importante en cuanto a calidad del servicio se refiere; por lo tanto, este ítem debe contar con los indicadores oportunos en el conjunto de los KPI de calidad que se implementen.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema7/6.png')})`}" style="background-color: #fae7cf;")
               h4.mb-0.p-3.text-center(style="background-color:#FAE7CF;position:absolute;width:100%;bottom:0;border-radius:0px 0px 15px 15px;") Tiempos
-      .col-md-6.col-lg-3.mb-4.mb-lg-0
+      .col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false" style="background-color:#FAE7CF;")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -76,7 +76,7 @@
               p #[strong Nivel de satisfacción del cliente:] es importante tener una serie de indicadores tanto cuantitativos como cualitativos que permitan medir el servicio prestado. 
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema7/7.png')})`}" style="background-color: #fae7cf;")
               h4.mb-0.p-3.text-center(style="background-color:#FAE7CF;position:absolute;width:100%;bottom:0;border-radius:0px 0px 15px 15px;") Nivel de satisfacción del cliente
-      .col-md-6.col-lg-3.mb-4.mb-lg-0
+      .col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false" style="background-color:#FAE7CF;")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
@@ -186,10 +186,10 @@
     h4.mt-5(data-aos="fade-up") Selección de vehículos de acuerdo con operación de transporte
 
     .row.mt-5
-      .col-md-6.mb-4.mb-md-0(style="place-self:center")
+      .col-lg-6.mb-4.mb-lg-0(style="place-self:center")
         figure
           img(src="@/assets/curso/tema7/19.png" data-aos="fade-right")
-      .col-md-6(style="place-self:center")
+      .col-lg-6(style="place-self:center")
         p(data-aos="fade-up") Para definir el vehículo de carga, es importante tener en cuenta aspectos como seguridad, eficacia, costos, posibles rutas y capacidad. Además, debe elegirse pensando siempre en las necesidades de la empresa y en cumplir con los requisitos del cliente, garantizando un excelente papel de distribución.
         p.mt-4(data-aos="fade-up") En algunos casos, resulta ser un total desafío elegir un camión de carga; este debe cumplir con varias características, debe ser versátil, se debe pensar en el combustible que usará e incluso su rendimiento, la capacidad de carga, las exigencias de los productos y el modo de superficie que recorrerá.
 
@@ -197,19 +197,19 @@
 
     h4.text-center.mt-5(data-aos="fade-up") Selección de vehículos de acuerdo con operación de transporte
 
-    .row.col-md-8.m-auto.mt-5
-      .col-md-6.mb-4.mb-md-0
+    .row.col-lg-8.m-auto.mt-5
+      .col-lg-6.mb-4.mb-lg-0
         .tarjeta-avatar(data-aos="zoom-in-up")
           img(src='@/assets/curso/tema7/20.png')
           .tarjeta.color-primario(style="background-color:#FAE7CF;")
             .p-4
               p.text-center.mt-4(style="color:#12263F;") #[strong(style="color:#12263F;") Logística de devoluciones:] se responsabiliza de los retornos desde el punto de distribución o desde el cliente hasta el centro del que partió el producto, es una de las gestiones más importantes y más ahora que las ventas por Internet han aumentado.
-      .col-md-6
+      .col-lg-6
         .tarjeta-avatar(data-aos="zoom-in-up")
           img(src='@/assets/curso/tema7/21.png')
           .tarjeta.color-primario(style="background-color:#FAE7CF;")
             .p-4
-              p.text-center.mt-4(style="color:#12263F;") #[strong(style="color:#12263F;") Logística de residuos:] Se refiere a la recuperación de los residuos para su posterior aprovechamiento y así contribuir a la conservación del medio ambiente. 
+              p.text-center.mt-4(style="color:#12263F;") #[strong(style="color:#12263F;") Logística de residuos:] se refiere a la recuperación de los residuos para su posterior aprovechamiento y así contribuir a la conservación del medio ambiente. 
 
       .p-4.mt-5(style="background-color:#D9D5E6;border-radius:10px;")
         h5(data-aos="fade-up") Indicadores de eficiencia
