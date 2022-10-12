@@ -10,10 +10,10 @@
     p(data-aos="fade-up") Luego de escoger un modo de transporte y tener la mercancía para transportar del lugar X al Y, se decide la ruta a seguir (R) y el vehículo (V). Se debe dar un mapa con diferentes opciones, prevaleciendo siempre la más corta.
 
     .row.mt-5
-      .col-md-3.mb-4.mb-md-0.d-none.d-md-block
+      .col-auto.mb-4.mb-md-0.d-none.d-md-block
         figure.text-center
           img(src="@/assets/curso/tema4/5.png" data-aos="fade-right" style="display:inline;max-width:150px;")
-      .col-md-9
+      .col
         h4(data-aos="fade-up") #[span(style="background-color:#5B4794;padding:.4rem 3rem;border-radius:5px;color:white;") Selección de rutas de transporte]
         p.mt-4(data-aos="fade-up") A la hora de transportar mercancía, tenemos puntos de origen y destino distintos y únicos. Para lograr una correcta movilización de la mercancía, necesitamos elaborar una red; conozcamos los elementos de esta:
 
@@ -23,15 +23,19 @@
           img(src="@/assets/curso/tema4/6.png" data-aos="fade-right")
       .col-lg-7
         h5(data-aos="fade-up") Nodo: es una localización específica
-        ul.lista-ul.mt-4
+        ul.fa-ul.mt-4
           li(data-aos="fade-up") 
-            p #[i.fas.fa-check(style="color:#FFBA5B;")] #[strong(style="color:#5B4794;") El primer elemento es el Nodo:] es una localización específica; podemos tener nodos de origen, de destino o de transbordo.
+            i.fa.fa-li.fa-check(style="color:#FFBA5B;")
+            | #[strong(style="color:#5B4794;") El primer elemento es el Nodo:] es una localización específica; podemos tener nodos de origen, de destino o de transbordo.
           li(data-aos="fade-up") 
-            p #[i.fas.fa-check(style="color:#FFBA5B;")] #[strong(style="color:#5B4794;") Luego, tenemos el Arco:] que representa la conectividad de dos nodos; estos pueden ser unidireccionales o bidireccionales.
+            i.fa.fa-li.fa-check(style="color:#FFBA5B;")
+            | #[strong(style="color:#5B4794;") Luego, tenemos el Arco:] que representa la conectividad de dos nodos; estos pueden ser unidireccionales o bidireccionales.
           li(data-aos="fade-up") 
-            p #[i.fas.fa-check(style="color:#FFBA5B;")] #[strong(style="color:#5B4794;") Decisión:] que nos indica a través de qué arcos viajar.
+            i.fa.fa-li.fa-check(style="color:#FFBA5B;")
+            | #[strong(style="color:#5B4794;") Decisión:] que nos indica a través de qué arcos viajar.
           li(data-aos="fade-up") 
-            p #[i.fas.fa-check(style="color:#FFBA5B;")] #[strong(style="color:#5B4794;") Y el Objetivo:] que busca minimizar la distancia (o tiempo) entre el origen y el destino.
+            i.fa.fa-li.fa-check(style="color:#FFBA5B;")
+            | #[strong(style="color:#5B4794;") Y el Objetivo:] que busca minimizar la distancia (o tiempo) entre el origen y el destino.
 
     .row.mt-4
       .col-lg-7.mb-4.mb-lg-0

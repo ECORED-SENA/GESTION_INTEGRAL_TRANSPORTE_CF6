@@ -51,39 +51,18 @@
     h4.mt-5(data-aos="fade-up") Indicadores de calidad en logística
     p.mt-4(data-aos="fade-up") Los indicadores de calidad ineludibles que deben figurar en la monitorización de operaciones logísticas y transporte son: 
 
+    
     .row.mt-5
-      .col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false" style="background-color:#FAE7CF;")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-5.p-xl-5
-              p #[strong Relación costes-beneficios:] la reducción de costes no debe ni puede afectar la calidad en su totalidad.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema7/5.png')})`}" style="background-color: #fae7cf;")
-              h4.mb-0.p-3.text-center(style="background-color:#FAE7CF;position:absolute;width:100%;bottom:0;border-radius:0px 0px 15px 15px;") Relación costes-beneficios
-      .col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false" style="background-color:#FAE7CF;")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-5.p-xl-5
-              p #[strong Tiempos:] la reducción del tiempo en la gestión, la carga y la distribución de mercancías es un aspecto importante en cuanto a calidad del servicio se refiere; por lo tanto, este ítem debe contar con los indicadores oportunos en el conjunto de los KPI de calidad que se implementen.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema7/6.png')})`}" style="background-color: #fae7cf;")
-              h4.mb-0.p-3.text-center(style="background-color:#FAE7CF;position:absolute;width:100%;bottom:0;border-radius:0px 0px 15px 15px;") Tiempos
-      .col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false" style="background-color:#FAE7CF;")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-5.p-xl-5
-              p #[strong Nivel de satisfacción del cliente:] es importante tener una serie de indicadores tanto cuantitativos como cualitativos que permitan medir el servicio prestado. 
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema7/7.png')})`}" style="background-color: #fae7cf;")
-              h4.mb-0.p-3.text-center(style="background-color:#FAE7CF;position:absolute;width:100%;bottom:0;border-radius:0px 0px 15px 15px;") Nivel de satisfacción del cliente
-      .col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-secundario(@mouseover="indicadorTarjetaSlide = false" style="background-color:#FAE7CF;")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-5.p-xl-5
-              p #[strong Operaciones de logística inversa:] este tipo de operaciones debe contar con indicadores específicos que evalúen aspectos como los tiempos de recogida y devolución de los artículos o mercancías al punto de origen, costes repercutidos al cliente, márgenes de beneficios-pérdidas, impacto medioambiental de estas operaciones.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema7/8.png')})`}" style="background-color: #fae7cf;")
-              h4.mb-0.p-3.text-center(style="background-color:#FAE7CF;position:absolute;width:100%;bottom:0;border-radius:0px 0px 15px 15px;") Operaciones de logística inversa
+      .col-lg-6.mb-4.mb-lg-0(style="place-self:center")
+        LineaTiempoD.color-secundario
+          p.text-small(numero="1" titulo="Relación costes-beneficios") La reducción de costes no debe ni puede afectar la calidad en su totalidad.
+          p.text-small(numero="2" titulo="Tiempos") La reducción del tiempo en la gestión, la carga y la distribución de mercancías es un aspecto importante en cuanto a calidad del servicio se refiere; por lo tanto, este ítem debe contar con los indicadores oportunos en el conjunto de los KPI de calidad que se implementen.
+          p.text-small(numero="3" titulo="Nivel de satisfacción del cliente") Es importante tener una serie de indicadores tanto cuantitativos como cualitativos que permitan medir el servicio prestado. 
+          p.text-small(numero="4" titulo="Operaciones de logística inversa") Este tipo de operaciones debe contar con indicadores específicos que evalúen aspectos como los tiempos de recogida y devolución de los artículos o mercancías al punto de origen, costes repercutidos al cliente, márgenes de beneficios-pérdidas, impacto medioambiental de estas operaciones.
+      .col-lg-6(style="place-self:center")
+        figure
+          img(src="@/assets/curso/tema7/22.png" data-aos="fade-left")
+
 
     Separador.mt-5
 
@@ -268,4 +247,8 @@ export default {
   border-top-left-radius: 50px
 .slyder-f__btn i
   color: #FFBA5B
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #FFBA5B
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+  background-color: #FAE7CF
 </style>
