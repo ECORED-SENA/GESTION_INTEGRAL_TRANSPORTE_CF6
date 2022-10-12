@@ -39,10 +39,10 @@
     p.mt-4(data-aos="fade-up") La particularidad del transporte automotor de carga en relación con la gestión de la calidad se basa en que es un servicio que interrelaciona a proveedores, clientes y operadores logísticos, independientemente del tamaño de la empresa, la carga o el camión.
 
     .row.mt-5
-      .col-lg-2.mb-4.mb-lg-0(style="place-self:center;")
+      .col-auto.mb-4.mb-md-0.d-none.d-md-block(style="place-self:center;")
         figure.text-center
           img(src="@/assets/curso/tema7/3.png" data-aos="fade-right" style="display:inline;max-width:190px")
-      .col-lg-10
+      .col
         p.mb-0(data-aos="fade-up") Desarrollar e implantar un Sistema de Gestión de la Calidad bajo la Norma ISO 9001 en el sector del transporte es una iniciativa que trae grandes beneficios para todos los grupos de interés. Aunque no se certifique, aplicar este tipo de normas promueve las buenas prácticas para un trabajo más eficiente, productivo y, en algunos casos, la posibilidad de certificación en campos como la seguridad y el cuidado del medio ambiente; aspectos valorados por proveedores.
 
     figure.mt-5
@@ -104,10 +104,10 @@
     p.mt-5(data-aos="fade-up") La implementación del #[em cross docking] puede generar a una empresa oportunidades para ahorrar dinero, aumentar la eficiencia y brindar un mejor servicio a los clientes. De esta forma, puede ser un diferenciador clave entre la organización y sus competidores.
 
     .row.mt-5
-      .col-lg-2.mb-4.mb-lg-0(style="place-self:center;")
+      .col-auto.mb-4.mb-md-0.d-none.d-md-block(style="place-self:center;")
         figure.text-center
           img(src="@/assets/curso/tema7/11.png" data-aos="fade-right" style="display:inline;max-width:190px")
-      .col-lg-10(style="place-self:center")
+      .col(style="place-self:center")
         p.mb-0(data-aos="fade-up") Desde el punto de vista de la manipulación, el #[em cross docking] se caracteriza por la ausencia de picking (descomposición de las unidades de carga en otras menores), o su reducción al mínimo; algunas veces, muchas de las plataformas dedicadas al #[em cross docking] están ya totalmente automatizadas, sustituyendo los operarios por cintas transportadoras o carretillas robotizadas.
 
     Separador.mt-5

@@ -8,10 +8,10 @@
       h1 Configuración de pedidos
 
     .row
-      .col-lg-2.mb-4.mb-lg-0(style="place-self:center;")
+      .col-auto.mb-4.mb-md-0.d-none.d-md-block(style="place-self:center;")
         figure.text-center
           img(src="@/assets/curso/tema8/1.png" data-aos="fade-right" style="display:inline;max-width:190px;")
-      .col-lg-10(style="place-self:center")
+      .col(style="place-self:center")
         p.mb-0(data-aos="fade-up") Durante la organización y gestión de pedidos, conocido como #[em picking], se seleccionan y recogen los productos desde las estanterías, pasillos y demás espacios de la bodega, así, el objetivo de la preparación de pedidos es organizar los productos para ser embalados (#[em packing]) y enviados a sus respectivos compradores, por lo que mientras más eficaz sea esta etapa, mejores serán los resultados a la hora de la entrega del producto al cliente.
 
     p.mt-5(data-aos="fade-up") Hay diferentes formas de realizar #[em picking] de acuerdo con las características de la mercancía, las cuales verá a continuación:

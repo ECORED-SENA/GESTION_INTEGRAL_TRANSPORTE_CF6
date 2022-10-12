@@ -8,10 +8,10 @@
       h1 Modelos de distribución
 
     .row
-      .col-lg-2.mb-4.mb-lg-0(style="place-self:center;")
+      .col-auto.mb-4.mb-md-0.d-none.d-md-block(style="place-self:center;")
         figure.text-center
           img(src="@/assets/curso/tema2/1.png" data-aos="fade-right" style="display:inline;max-width:190px;")
-      .col-lg-10
+      .col
         p(data-aos="fade-up") Los modelos de distribución consisten en la infraestructura que adoptan las empresas fabricantes para llevar sus productos a los clientes. 
         p.mt-4(data-aos="fade-up") Dentro del proceso de distribución, se pueden encontrar varios modelos que permiten a las empresas hacer llegar sus productos hasta un mercado. Es de entender que una compañía puede optar de forma simultánea por varios de estos modelos, estructurándolos de forma adecuada, unos u otros, en determinados lugares, clientes, etc.
         p.mt-4(data-aos="fade-up") A continuación, vea los modelos de distribución más comunes que se pueden encontrar:

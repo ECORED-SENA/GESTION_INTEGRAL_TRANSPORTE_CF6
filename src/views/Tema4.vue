@@ -50,10 +50,10 @@
           img(src="@/assets/curso/tema4/7.png" data-aos="fade-left")
 
     .row.mt-5
-      .col-md-3.mb-4.mb-md-0.d-none.d-md-block
+      .col-auto.mb-4.mb-md-0.d-none.d-md-block
         figure.text-center
           img(src="@/assets/curso/tema4/8.png" data-aos="fade-right" style="display:inline;max-width:150px;")
-      .col-md-9
+      .col
         h4(data-aos="fade-up") #[span(style="background-color:#5B4794;padding:.4rem 3rem;border-radius:5px;color:white;") Método de la fuerza bruta]
         p.mt-4(data-aos="fade-up") Se han generado varias iniciativas con el fin de ser más eficientes en el cálculo de rutas a raíz de la dificultad que se presenta con el agente viajero. Existe un método muy común, nombrado fuerza bruta, donde se calculan todos los posibles recorridos, pero no es funcional en redes de gran tamaño, como en el método anterior.
 
@@ -91,10 +91,10 @@
     p.mt-4(data-aos="fade-up") Pero garantizando que en un corto tiempo podemos tener una alternativa en el caso de necesitar trazar una ruta de forma rápida.
 
     .row.mt-5
-      .col-lg-2.mb-4.mb-lg-0(style="place-self:center;")
+      .col-auto.mb-4.mb-md-0.d-none.d-md-block(style="place-self:center;")
         figure.text-center
           img(src="@/assets/curso/tema4/1.png" data-aos="fade-right" style="display:inline;max-width:190px")
-      .col-md-10
+      .col
         h5(data-aos="fade-up") Normatividad vigente para el transporte de carga: velocidades y tiempos permitidos.
         p.mt-3(data-aos="fade-up") En Colombia, la normatividad vigente que regula la velocidad en carreteras nacionales, departamentales, distritales y municipales está dada por la Resolución 1384 de 2010, del Ministerio de Transporte, donde se establecen los límites permitidos en los diferentes corredores viales, bajo el manual denominado "Método para establecer límites de velocidad en carreteras colombianas", elaborado por la Universidad del Cauca, el cual hace parte integral de esta resolución. 
 
@@ -104,10 +104,10 @@
       img(src="@/assets/curso/tema4/2.png" data-aos="zoom-in-up")
 
     .row.mt-5
-      .col-lg-2.mb-4.mb-lg-0(style="place-self:center;")
+      .col-auto.mb-4.mb-md-0.d-none.d-md-block(style="place-self:center;")
         figure.text-center
           img(src="@/assets/curso/tema4/3.png" data-aos="fade-right" style="display:inline;max-width:190px")
-      .col-md-10
+      .col
         h5(data-aos="fade-up") Ruteo de flotas de distribución a centros de venta
         p.mt-3(data-aos="fade-up") Dentro de la operación de transporte, es importante buscar un camino entre todas las opciones posibles en una red de distribución, permitiendo programar rutas efectivas a cualquier destino.
         p.mt-4(data-aos="fade-up") Se ha demostrado que desarrollando una adecuada programación de rutas efectivas de transporte de carga las empresas pueden reducir los gastos de transporte hasta en un 30 %, y sin este trabajo de programación, las empresas pueden llegar a gastar hasta 30 % de su presupuesto anual en el desarrollo e implementación de la logística de rutas de entrega de productos, asimismo, demorando más los tiempos de operación e incurriendo en desperdicios en rubros como el gasto en combustible y el pago de horas-hombre. 
