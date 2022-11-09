@@ -16,9 +16,6 @@
         p.mt-4(data-aos="fade-up") Dentro del proceso de distribución, se pueden encontrar varios modelos que permiten a las empresas hacer llegar sus productos hasta un mercado. Es de entender que una compañía puede optar de forma simultánea por varios de estos modelos, estructurándolos de forma adecuada, unos u otros, en determinados lugares, clientes, etc.
         p.mt-4(data-aos="fade-up") A continuación, vea los modelos de distribución más comunes que se pueden encontrar:
 
-    h3.text-center.mt-5(data-aos="fade-up")
-      span(style="background-color:#5B4794;color:white;padding:.3rem 4rem;border-radius:3px;") Modelos de distribución
-
     h4.mt-5(data-aos="fade-up") Modelo descentralizado
     .row.mt-5
       .col-lg-6.mb-4.mb-mb-0
@@ -151,15 +148,15 @@
           .tarjeta.tarjeta--azul(style="background-color:#FAE7CF;")
             .p-4
               h4(data-aos="fade-up") Desventajas
-              ul.lista-ul--color.mt-4
+              ul.fa-ul.mt-4
                 li(data-aos="fade-up") 
-                  i.fas.fa-check(style="color:#FFBA5B;")
+                  i.fa-li.fas.fa-check(style="color:#FFBA5B;")
                   | Se necesita inversión para reestructurar todo para #[em cross-docking].
                 li(data-aos="fade-up") 
-                  i.fas.fa-check(style="color:#FFBA5B;")
+                  i.fa-li.fas.fa-check(style="color:#FFBA5B;")
                   | Requiere integrar efectivamente toda la cadena.
                 li(data-aos="fade-up") 
-                  i.fas.fa-check(style="color:#FFBA5B;")
+                  i.fa-li.fas.fa-check(style="color:#FFBA5B;")
                   | Se necesita dedicar buen tiempo a la planificación y coordinación.
 
 

@@ -87,4 +87,6 @@ export default {
   max-width: 170px
   -webkit-animation: float1 3.5s ease-in-out infinite alternate
   animation: float1 3.5s ease-in-out infinite alternate
+.slyder-a__tipo-b .hide
+  opacity: 0 !important
 </style>

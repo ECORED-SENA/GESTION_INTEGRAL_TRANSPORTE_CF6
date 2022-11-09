@@ -55,57 +55,57 @@
 
     p.mt-5(data-aos="fade-up") Hay diferentes pasos que completan este ciclo, en algunos casos, el orden pudiese cambiar, pero en general el ciclo se comprende por los siguientes momentos:
 
-    PasosB.color-acento-contenido.mt-5.p-5(style="background-color:#EEECF4;border-radius:20px;")
-      .row.mt-4(titulo="Recepción del pedido")
+    PasosB.color-acento-contenido.mt-5(style="background-color:#EEECF4;border-radius:20px;")
+      .row.mt-4.p-4(titulo="Recepción del pedido")
         .col-md-6.mb-4.mb-md-0(style="place-self:center")
           figure
             img(src='@/assets/curso/tema5/4.png')
         .col-md-6(style="place-self:center")
           h4 Recepción del Pedido:
           p.mt-4 Se recibe la información acerca de un producto que se necesita. En la misma se encuentra la cantidad, tiempo y aplicación.
-      .row.mt-4(titulo="Comprobación del pedido")
+      .row.mt-4.p-4(titulo="Comprobación del pedido")
         .col-md-6.mb-4.mb-md-0(style="place-self:center")
           h4 Comprobación del pedido:
           p.mt-4 Se verifica toda la información entre el cliente y el productor, incluyendo la forma de pago.
         .col-md-6(style="place-self:center")
           figure
             img(src='@/assets/curso/tema5/5.png')
-      .row.mt-4(titulo="Comprobación de las Existencias")
+      .row.mt-4.p-4(titulo="Comprobación de las Existencias")
         .col-md-6.mb-4.mb-md-0(style="place-self:center")
           figure
             img(src='@/assets/curso/tema5/6.png')
         .col-md-6(style="place-self:center")
           h4 Comprobación de las Existencias:
           p.mt-4 Se revisa el inventario para asegurarse si se puede responder con el pedido.
-      .row.mt-4(titulo="Priorización de Pedidos")
+      .row.mt-4.p-4(titulo="Priorización de Pedidos")
         .col-md-6.mb-4.mb-md-0(style="place-self:center")
           h4 Priorización de Pedidos:
           p.mt-4 Consiste en las tácticas que se realicen con relación al servicio al cliente y fidelización.
         .col-md-6(style="place-self:center")
           figure
             img(src='@/assets/curso/tema5/7.png')
-      .row.mt-4(titulo="Preparación del Pedido")
+      .row.mt-4.p-4(titulo="Preparación del Pedido")
         .col-md-6.mb-4.mb-md-0(style="place-self:center")
           figure
             img(src='@/assets/curso/tema5/8.png')
         .col-md-6(style="place-self:center")
           h4 Preparación del Pedido:
           p.mt-4 Aclara las características del transporte del pedido y se organiza el pedido según lo solicitado.
-      .row.mt-4(titulo="Envío y Entrega")
+      .row.mt-4.p-4(titulo="Envío y Entrega")
         .col-md-6.mb-4.mb-md-0(style="place-self:center")
           h4 Envío y Entrega:
           p.mt-4 La mercancía es despachada y entregada al comprador, bajo las condiciones pautadas.
         .col-md-6(style="place-self:center")
           figure
             img(src='@/assets/curso/tema5/9.png')
-      .row.mt-4(titulo="Facturación")
+      .row.mt-4.p-4(titulo="Facturación")
         .col-md-6.mb-4.mb-md-0(style="place-self:center")
           figure
             img(src='@/assets/curso/tema5/10.png')
         .col-md-6(style="place-self:center")
           h4 Facturación:
           p.mt-4 Se hace entrega de toda la documentación que soporta el precio del producto, declaraciones y cláusulas. Puede ser virtual o física.
-      .row.mt-4(titulo="Cobro")
+      .row.mt-4.p-4(titulo="Cobro")
         .col-md-6.mb-4.mb-md-0(style="place-self:center")
           h4 Cobro:
           p.mt-4 Se recibe la cantidad de dinero acordado para el pago del producto. Según el caso, este paso también puede ocurrir al inicio del ciclo.
@@ -146,7 +146,7 @@
             | Inventario
           li(data-aos="fade-up") 
             i.fas.fa-check(style="color:#FFBA5B;")
-            | Dsitribución
+            | Distribución
       .col-lg-3.mb-4.mb-lg-0.d-none.d-lg-flex(style="place-self:center")
         figure.text-center
           img(src="@/assets/curso/tema5/13.png" data-aos="zoom-in-up" style="display:inline;max-width:200px;")
@@ -166,7 +166,7 @@
             i.fas.fa-check(style="color:#FFBA5B;")
             | Entrega mediante movimiento eficiente de productos desde los almacenes a los clientes.
 
-    p.mt-5(data-aos="fade-up") En conclusión, el SCM no sólo permite ir más allá del registro y seguimiento del proceso, sino que ayuda a identificar los elementos clave de la cadena de suministro, a realizar tendencias y pronósticos de producción y ventas; ayuda en la planificación integral de los procesos y planeación colaborativa, optimización y entrega a tiempo a los clientes, con lo que se mejora el nivel de servicio y satisfacción, lo cual deriva también en reducción de costos de inventario, de transporte y de administración.
+    p.mt-5(data-aos="fade-up") En conclusión, el SCM no solo permite ir más allá del registro y seguimiento del proceso, sino que ayuda a identificar los elementos clave de la cadena de suministro, a realizar tendencias y pronósticos de producción y ventas; ayuda en la planificación integral de los procesos y planeación colaborativa, optimización y entrega a tiempo a los clientes, con lo que se mejora el nivel de servicio y satisfacción, lo cual deriva también en reducción de costos de inventario, de transporte y de administración.
 
 
 

@@ -18,8 +18,8 @@
 
     p.mt-5(data-aos="fade-up") A continuación, vea los diferentes tipos:
 
-    SlyderA.p-5.mt-5.slydertema2(tipo="b" style="background-color:#EFF5FA;border-radius:15px;")
-      .row
+    SlyderA.mt-5.slydertema2(tipo="b" style="background-color:#EFF5FA;border-radius:15px;")
+      .row.p-4
         .col-lg-4.mb-4.mb-lg-0
           h4 Plataformas logísticas o almacenes centrales: 
           p.mt-4 Es una zona delimitada en la que se concentran actividades y funciones logísticas.
@@ -39,7 +39,7 @@
         .col-lg-8
           figure
             img(src='@/assets/curso/tema3/2.png')
-      .row
+      .row.p-4
         .col-lg-4.mb-4.mb-lg-0
           h4 Almacenes de consolidación o de tránsito: 
           p.mt-4 Son sitios o almacenes que agrupan pedidos de tamaño pequeño o medio, de una zona geográfica, con el fin de ahorrar costos de transporte. Este tipo de almacén es muy utilizado por las empresas de transporte, en especial las de paquetería.
@@ -47,7 +47,7 @@
         .col-lg-8
           figure
             img(src='@/assets/curso/tema3/3.png')
-      .row
+      .row.p-4
         .col-lg-4.mb-4.mb-lg-0
           h4 Almacenes regionales o locales:
           p.mt-4 Distribuyen los pedidos de clientes o puntos de ventas de un área geográfica concreta; su tarea fundamental es desconsolidar o desagrupar los envíos. 

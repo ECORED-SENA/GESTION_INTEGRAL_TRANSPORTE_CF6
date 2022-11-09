@@ -80,7 +80,8 @@
         h4(data-aos="fade-up") Recibo de mercancías
         p(data-aos="fade-up") Este proceso está compuesto por las operaciones de recibo de documentos, recibo del camión, descarga y verificación de la mercancía y almacenamiento de la misma.
         p.mt-4(data-aos="fade-up") Al llegar al centro de distribución del comerciante, el conductor debe entregar los documentos que acompañan la carga, como la factura o la remisión; en la mayoría de los almacenes, la mercancía no tiene horario de recepción, sino que el turno de la descarga se asigna según el orden de llegada; aunque algunos almacenes asignan horarios fijos a los proveedores.
-        p.mt-4(data-aos="fade-up") Se suele hacer una verificación de las mercancías y/o artículos que llegan al lugar de distribución. #[br] Se hace conteo ciego, aquí el operario obtiene una lista de las referencias pedidas y proviene a hacer el conteo de las unidades que obtiene; al final, esta información es ingresada al sistema que hace la comparación de las porciones pedidas y, cuando la mercancía es verificada, se proviene al almacenamiento en la bodega, para lo que los productos son estibados y transportados con ayuda de montacargas al área de almacenamiento.
+        p.mt-4(data-aos="fade-up") Se suele hacer una verificación de las mercancías y/o artículos que llegan al lugar de distribución. 
+        p.mt-4(data-aos="fade-up") Se hace conteo ciego, aquí el operario obtiene una lista de las referencias pedidas y proviene a hacer el conteo de las unidades que obtiene; al final, esta información es ingresada al sistema que hace la comparación de las porciones pedidas y, cuando la mercancía es verificada, se proviene al almacenamiento en la bodega, para lo que los productos son estibados y transportados con ayuda de montacargas al área de almacenamiento.
       .col-lg-6(style="place-self:center")
         figure
           img(src="@/assets/curso/tema6/3.png" data-aos="fade-left")

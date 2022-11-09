@@ -42,7 +42,7 @@
         p(data-aos="fade-up") Hay métodos que nos pueden ayudar para elegir rutas óptimas o funcionales:
         p.mt-4(data-aos="fade-up") El primero es  #[strong(style="color:#5B4794;") “El problema del viajero”]. Método sencillo a la hora de asignar nodos y volúmenes de mercancía a rutas, tiene como finalidad hallar el recorrido más completo, haciendo conexión con todos los nodos de una red, pasando por allí solo una vez y regresando al punto de partida; es importante que además se minimice tanto el tiempo como la ruta, pudiendo obtener del ejercicio diferentes opciones.
         p.mt-5(data-aos="fade-up") La siguiente ecuación determina la cantidad de rutas posibles en una red: #[strong(style="color:#5B4794;background-color:#DBD2F3;padding:.3rem;") (n-1)!]
-        p.mt-4(data-aos="fade-up") Lo que significa que en una red de #[strong(style="color:#5B4794;background-color:#DBD2F3;padding:.3rem;") 5 nodos podemos tener: (5-1)! = 24 rutas posibles;] y, a medida que el número de nodos aumente, la cantidad de rutas posibles crece proporcionalmente. En el caso de que las distancias sean simétricas la cantidad de rutas posibles se reduce a la mitad, es decir: #[strong(style="color:#5B4794;background-color:#DBD2F3;padding:.3rem;") ( (n-1)!) / 2]
+        p.mt-4(data-aos="fade-up") Lo que significa que en una red de #[strong(style="color:#5B4794;background-color:#DBD2F3;padding:.3rem;") 5 nodos podemos tener: (5-1)! = 24 rutas posibles;] y, a medida que el número de nodos aumente, la cantidad de rutas posibles crece proporcionalmente. En el caso de que las distancias sean simétricas, la cantidad de rutas posibles se reduce a la mitad, es decir: #[strong(style="color:#5B4794;background-color:#DBD2F3;padding:.3rem;") ( (n-1)!) / 2]
         .mt-4.p-4(style="background-color:#FCF2E5;")
           p.mb-0(data-aos="fade-up") El objetivo de este método es calcular #[strong(style="color:#5B4794;") la mejor ruta para la distribución y optimizar,] utilizando el mejor escenario posible. Lo cual significa un ahorro significativo en el tiempo de procesamiento al calcular rutas de gran tamaño.
       .col-lg-5.col-md-8.col-sm-10.m-auto
@@ -66,9 +66,9 @@
         .p-4(style="height:100%;background-color:#FAE7CF;")
           p(data-aos="fade-up") El mismo tiene entre nodos (o destinos) diferentes distancias, teniendo en cuenta eso:
           p.mt-4(data-aos="fade-up") Las posibles rutas serían:
-          p.mt-4(data-aos="fade-up") #[strong Una de 35 km #[br] Una de 31 km #[br] Y una de 40 km]
+          p.mt-4(data-aos="fade-up") #[strong Una de 35 km. #[br] Una de 31 km. #[br] Y una de 40 km.]
           p.mt-4(data-aos="fade-up") Y de esas mismas podemos derivar las rutas simétricas que, cambiando el orden de algunos destinos, nos den los mismos resultados:
-          p.mt-4(data-aos="fade-up") #[strong Una de 31 km #[br] Una de 35 km #[br] Y otra de 40 km]
+          p.mt-4(data-aos="fade-up") #[strong Una de 31 km. #[br] Una de 35 km. #[br] Y otra de 40 km.]
           h5.mt-5.text-center(data-aos="fade-up") Método de fuerza
           figure.text-center.mt-4
             img(src="@/assets/curso/tema4/9.png" data-aos="zoom-in-up" style="display:inline;max-width:300px")
@@ -83,7 +83,7 @@
           p.mb-1(style="color:#5B4794;" data-aos="fade-up") A – C – D – B – A = 7 + 4 + 15 + 9 = 35 km
           p.mb-1(style="color:#5B4794;" data-aos="fade-up") A – D – B – C – A = 8 + 15 + 10 +7 = 40 km
           p.mt-4(data-aos="fade-up") Teniendo en cuenta el mapeo realizado de las rutas, se descartan los resultados mayores y nos quedamos con las menores rutas.
-          p.mt-4(data-aos="fade-up") En este caso, podemos ver que podemos hacer la misma en tan sólo 31 km de dos formas distintas.
+          p.mt-4(data-aos="fade-up") En este caso, podemos ver que podemos hacer la misma en tan solo 31 km de dos formas distintas.
           figure.text-center.mt-5
             img(src="@/assets/curso/tema4/10.png" data-aos="zoom-in-up" style="display:inline;max-width:300px")
 

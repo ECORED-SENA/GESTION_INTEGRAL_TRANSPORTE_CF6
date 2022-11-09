@@ -10,12 +10,12 @@
             img(src="@/assets/template/seleccion-multiple.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Identificando conceptos dentro de la programación de la operación logística
-        p.mb-4 Identificar conceptos y procesos clave que forman parte de la programación de una operación logística.
+          h2 Identificando procesos de operación y programación logística
+        p.mb-4 Identificar los conceptos y procesos claves, que nos permitirán llevar a cabo la programación de operaciones logísticas.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Sopa de letras
+              p.fw-bold.mb-0 Relacionar terminos
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Realizar

@@ -108,7 +108,7 @@
         figure.text-center
           img(src="@/assets/curso/tema7/11.png" data-aos="fade-right" style="display:inline;max-width:190px")
       .col(style="place-self:center")
-        p.mb-0(data-aos="fade-up") Desde el punto de vista de la manipulación, el #[em cross docking] se caracteriza por la ausencia de picking (descomposición de las unidades de carga en otras menores), o su reducción al mínimo; algunas veces, muchas de las plataformas dedicadas al #[em cross docking] están ya totalmente automatizadas, sustituyendo los operarios por cintas transportadoras o carretillas robotizadas.
+        p.mb-0(data-aos="fade-up") Desde el punto de vista de la manipulación, el #[em cross docking] se caracteriza por la ausencia de #[em picking] (descomposición de las unidades de carga en otras menores), o su reducción al mínimo; algunas veces, muchas de las plataformas dedicadas al #[em cross docking] están ya totalmente automatizadas, sustituyendo los operarios por cintas transportadoras o carretillas robotizadas.
 
     Separador.mt-5
 
@@ -120,9 +120,6 @@
 
     figure.mt-5
       img(src="@/assets/curso/tema7/12.png" data-aos="zoom-in-up")
-
-    h4.mt-5(data-aos="fade-up") Indicadores de calidad en logística
-    p.mt-4(data-aos="fade-up") Los indicadores de calidad ineludibles que deben figurar en la monitorización de operaciones logísticas y transporte son: 
 
     SlyderF.mt-5.col-md-10.m-auto(columnas="col-lg-6")
       .tarjeta-avatar
@@ -159,8 +156,6 @@
     h3.mt-5(data-aos="fade-up") Tipos de logística inversa
 
     p.mt-4(data-aos="fade-up") Básicamente, existen dos tipos de logística Inversa:
-    p.mt-4(data-aos="fade-up") Logística de devoluciones: se responsabiliza de los retornos desde el punto de distribución o desde el cliente hasta el centro del que partió el producto, es una de las gestiones más importantes y más ahora que las ventas por Internet han aumentado.
-    p.mt-4(data-aos="fade-up") Logística de residuos: Se refiere a la recuperación de los residuos para su posterior aprovechamiento y así contribuir a la conservación del medio ambiente. 
 
     h4.mt-5(data-aos="fade-up") Selección de vehículos de acuerdo con operación de transporte
 
